@@ -1,0 +1,2998 @@
+{
+  "locale": "sr",
+  "messages": {
+    "Language": "Језик",
+    "msgId0": "{name} је снимио {numPhotos, plural, =0 {ниједну фотографију} =1 {једна фотографију} other {# фотографија}} {takenDate, date, long}.",
+    "htmlTest": "{name} {surname}",
+    "about_title": "О апликацији...",
+    "aboutLbl": "О",
+    "about_p0-0": "MapStore је платформа за прављење апликација за веб мапирање користећи стандардне библиотеке карата као нпр",
+    "about_p0-1": "и",
+    "about_p1": "MS Геопортал је постављен на MapStore платформи и има две најважније функционалности:",
+    "about_ul0_li0": "прилагодљиви унапред дефинисани прегледник карата са алатима за анализу",
+    "about_ul0_li1": "једноставно и интуитивно креирање, снимање и дељење карата и комбинација података добијених одабиром садржаја који долази из стандардних извора као што су Google Maps и OpenStreetMaps или путем услуга које пружају организације које користе отворене протоколе као што су OGC WMS, WFS, WMTS или TMS итд.",
+    "about_h20": "Лиценца",
+    "about_p3": "MapStore је бесплатан софтвер отвореног кода, заснован на OpenLayers, Leaflet и ReactJS библиотекама и лиценциран под једноставном BSD лиценцом.",
+    "about_p5-0": "За више информација посетите",
+    "about_a0": "ово",
+    "about_p5-1": "страна.",
+    "about_h21": "Заслуге",
+    "about_p6": "MS Геопортал је развио:",
+    "enable": "Омогући",
+    "layers": "Слојеви",
+    "warning": "Упозорење",
+    "errorTitleDefault": "Грешка",
+    "errorDefault": "Дошло је до грешке",
+    "pageInfoShowMore": "{count} од {total} резултата",
+    "showMore": "Прикажи више...",
+    "collapse": "Скупо",
+    "expand": "Проширити",
+    "Forbidden": "Забрањено",
+    "version": {
+      "label": "Версион"
+    },
+    "errorPage": {
+      "title": "Дошло је до грешке.",
+      "subtitle": "Кликните на дугме испод да бисте освежили страницу.",
+      "description": "Ако желите да пријавите ову грешку, можете послати е-поруку на нашу мејлинг листу.",
+      "descriptionAdmin": "Молимо контактирајте администратора."
+    },
+    "autorefresh": {
+      "of": "оф",
+      "updating": "Ажурирање...",
+      "layers": "слојева"
+    },
+    "localeErrors": {
+      "404": "Датотека за превод није пронађена"
+    },
+    "details": {
+      "title": "О карти"
+    },
+    "showEmptyMessageGFI": "Прикажи празну поруку резултата претраге у инфо панелу",
+    "remove": "Избриши",
+    "layerProperties": {
+      "windowTitle": "Својства слоја",
+      "title": "Наслов",
+      "name": "Име",
+      "group": "Група",
+      "general": "Генерал",
+      "description": "Опис",
+      "display": "Приказ",
+      "style": "Стиле",
+      "transparent": "Транспарент",
+      "singleTile": "Приказ једног окна",
+      "cached": "Користите кеш меморију",
+      "styleCustom": "Користите стил имена \"{value}\"",
+      "styleListLoadError": "Дошло је до грешке при учитавању стилова",
+      "stylesRefreshList": "Освежите листу стилова",
+      "format": "Формат",
+      "delete": "Избриши",
+      "deleteLayer": "Избриши слој",
+      "deleteLayerMessage": "Да ли сте сигурни да желите да избришете овај слој?",
+      "deleteLayerGroup": "Избриши групу",
+      "deleteLayerGroupMessage": "Да ли сте сигурни да желите да избришете ову групу и све слојеве?",
+      "confirmDelete": "Да ли сте сигурни?",
+      "featureTypeError": "Није могуће учитати атрибуте слоја",
+      "featureTypeErrorInvalidJSON": "Није могуће учитати атрибуте слоја. ",
+      "elevation": "Надморска висина",
+      "titleTranslations": "Преводи наслова",
+      "groupProperties": "Својства групе",
+      "featureInfo": "Информације о објекту",
+      "featureInfoFormatLbl": "Формат одговора на информације о објекту",
+      "legenderror": "Легенда није доступна",
+      "editCustomFormat": "уреди прилагођени формат",
+      "exampleOfResponse": "Пример",
+      "changedSettings": "променили подешавања",
+      "changedSettingsAlert": "Затварате панел са подешавањима без чувања промена",
+      "textFormatTitle": "ТЕКСТ",
+      "textFormatDescription": "Прикажите информације о објекту у једноставном текстуалном формату",
+      "htmlFormatTitle": "HTML",
+      "htmlFormatDescription": "Приказ информација о објекту у html формату",
+      "propertiesFormatTitle": "СВОЈСТВА",
+      "propertiesFormatDescription": "Прикажите информације о објекту као листу својстава",
+      "templateFormatTitle": "ФОРМА",
+      "templateFormatDescription": "Прилагођавање приказа информација о објекту",
+      "hideFormatTitle": "Дисплеј искључен",
+      "hideFormatDescription": "Приказ информација о објекту је искључен",
+      "templateFormatInfoAlert1": "Кликните на дугме за уређивање да бисте додали нови образац.",
+      "templateFormatInfoAlert2": "Користите ${ attribute } да означите атрибут за приказ",
+      "templateFormatInfoAlertExample": "ИД објекта је ${ properties }",
+      "templatePreview": "Преглед обрасца",
+      "visibilityLimits": {
+        "title": "Границе видљивости",
+        "serverValuesUpdateUndefined": "Сервер није вратио само макс. ",
+        "serverValuesUpdate": "Сервер је вратио само макс. ",
+        "serverValuesUpdateMinScale": "Сервер је вратио само мин. ",
+        "serverValuesUpdateMaxScale": "Сервер је вратио само макс. ",
+        "rangeError": "Мин. вредност је већа од макс. вредности. Унесите опсег тако да је макс. вредност већа од мин. вредности",
+        "serverValuesError": "Неуспешан захтев за мин. и макс. скалом граница видљивости. Највероватније услед проблема у мрежи или поставке сервера",
+        "updateWMSCapabilities": "Захтев серверу за мин. и макс. скалом граница видљивости",
+        "maxValue": "Макс. вредност (укључена)",
+        "maxValuePlaceholder": "Изаберите макс. ",
+        "valueNoResultsText": "Опције се не поклапају са уносом",
+        "createOption": "Додајте нову вредност {label}",
+        "minValue": "Мин. вредност (укључена)",
+        "minValuePlaceholder": "Изаберите мин. вредност",
+        "type": "Тип ограничења",
+        "scale": "Скала",
+        "resolution": "Резолуција"
+      },
+      "tooltip": {
+        "label": "Инфо облачић",
+        "title": "Наслов",
+        "description": "Опис",
+        "both": "Наслов и опис",
+        "none": "Нема облачића са информацијама",
+        "labelPlacement": "Положај",
+        "right": "Јел тако",
+        "left": "Налево",
+        "bottom": "Дно",
+        "top": "Врх"
+      },
+      "legendOptions": {
+        "title": "Легенда",
+        "legendWidth": "Ширина",
+        "legendHeight": "Висина",
+        "legendPreview": "Преглед"
+      },
+      "enableLocalizedLayerStyles": {
+        "label": "Омогућите локализоване стилове",
+        "tooltip": "Упозорење: Овај параметар захтева посебну конфигурацију ГеоСервера"
+      }
+    },
+    "longitude": "Географска дужина",
+    "latitude": "Ширина",
+    "notification": {
+      "update": "ажурирање",
+      "warning": "Упозорење",
+      "success": "успешно",
+      "backgroundLayerNotSupported": "Претходно изабрана површина није подржана за овај тип карте. ",
+      "noBackgroundLayerSupported": "Нема доступних позадинских слојева за овај тип карте.",
+      "updateOldMap": "Ово је стара карта, стога се не могу омогућити све функције. ",
+      "warningSaveUpdatedMap": "Неки слојеви се нису правилно ажурирали",
+      "saveUpdatedMap": "Сви слојеви су успешно ажурирани",
+      "incompatibleBackgroundAndProjection": "Пројекција коју сте изабрали није компатибилна са позадином, промените је у компатибилну или изаберите празну позадину, а затим изаберите ову пројекцију!",
+      "incompatibleDataAndProjection": "тренутни слој и пројекција карте нису у потпуности компатибилни. "
+    },
+    "dock": {
+      "row": "{rowsSelected} ред одабран",
+      "rows": "{rowsSelected} редова одабрано"
+    },
+    "globeswitcher": {
+      "tooltipDeactivate": "Изађите из 3Д приказа",
+      "tooltipActivate": "Уђите у 3Д приказ"
+    },
+    "cookie": {
+      "info": "Овај сајт користи колачиће да обезбеди боље корисничко искуство и функционалност. Поставле колачића могу се контролисати и прилагодити у Вашем веб прегледачу.",
+      "moreDetailsButton": "Детаљније",
+      "leave": "Остави",
+      "accept": "Прихвати"
+    },
+    "background": "Подлога",
+    "language": "Језик",
+    "mousePositionCoordinates": "Индикатор координата",
+    "mouseCoordinates": "Координате:",
+    "mousePositionCRS": "CRS:",
+    "mousePositionElevation": "n/m:",
+    "mousePositionNoElevation": "N/A",
+    "elevationLoading": "Учитавање...",
+    "elevationLoadingError": "Грешка",
+    "elevationNotAvailable": "N/А",
+    "mapScale": "Величина:",
+    "showMousePositionCoordinates": "Прикажи/сакриј координате",
+    "showCrsSelector": "Изаберите пројекцију",
+    "crsSelectorFilterPlaceholder": "Пројекциони филтер",
+    "crsSelectorSelectedCRS": "Изабрано:",
+    "menu": "Мени",
+    "options": "Могућности",
+    "settings": "Подешавања",
+    "help": "Помоћ",
+    "docs": "Документација",
+    "gohome": "Почетна страница",
+    "back": "Назад на увоз података",
+    "printbutton": "Штампа",
+    "annotationsbutton": "Напомене",
+    "noresultfound": "Нема резултата",
+    "save": "Запис",
+    "saveAs": "Сними као...",
+    "opacity": "Транспарентност",
+    "elevation": "Надморска висина",
+    "close": "Близу",
+    "cancel": "Одустани од тога",
+    "no": "Не",
+    "yes": "Да",
+    "confirm": "Потврди",
+    "confirmTitle": "Потврди?",
+    "pageInfo": "{total, plural, =0 {Нема објеката} =1 {{total} објекат од {total}} other {Објекти {start}-{end} од {total}}}",
+    "loading": "Учитавање...",
+    "group": "Група",
+    "groups": "Групе",
+    "permission": "Дозвола",
+    "permissions": "Дозволе",
+    "global": {
+      "colors": {
+        "red": "{number, plural, =0 {Црвено} =1 {Црвено} other {Црвене}}",
+        "blue": "{number, plural, =0 {Плаво} =1 {Плаво} other {Плаве}",
+        "green": "{number, plural, =0 {Зелено} =1 {Зелено} other {Зеленe}}",
+        "gray": "{number, plural, =0 {Сива} =1 {Сива} other {Сивe}}",
+        "jet": "{number, plural, =0 {Tамносива} =1 {Tамносива} other {Tамносивe}}",
+        "brown": "{number, plural, =0 {Смеђе} =1 {Смеђе} other {Смеђе}}",
+        "purple": "{number, plural, =0 {Љубичаста} =1 {Љубичаста} other {Љубичаста}}",
+        "random": "{number, plural, =0 {Насумично} =1 {Насумично} other {Насумичне}}"
+      }
+    },
+    "home": {
+      "open": "Отвори",
+      "shortDescription": "Модерно вебмапирање користећи OpenLayers, Leaflet и React<br/>",
+      "forkMeOnGitHub": "Форкај ме",
+      "description": "MS Геопортал је развијен за лако и интуитивно креирање, снимање и дељење карата и комбинација података добијених одабиром садржаја из стандардних извора као што су Google Maps и OpenStreetMap или путем услуга које пружају организације које користе отворене протоколе као што су OGC WMS, WFS, WMTS или TMS итд.<br/>",
+      "Applications": "Апликације",
+      "Examples": "Примери",
+      "LinkedinGroup": "МС Геопортал Линкедин група",
+      "scrollTop": "Превуците на врх странице",
+      "footerDescription": "",
+      "ml": {
+        "title": "Останите у контакту и информисани путем Е-маил листе",
+        "subscribe_users": "Претплатите се на листу е-поште корисника",
+        "subscribe_devel": "Претплатите се на листу е-поште за развој",
+        "visit_group": "Посетите ову групу",
+        "subscribe": "Претплата",
+        "email": "Е-пошта:"
+      },
+      "examples": {
+        "viewer": {
+          "html": "<h3>Претраживач</h3><p>Једноставан претраживач</p>"
+        },
+        "3dviewer": {
+          "html": "<h3>3Д Виевер</h3><p>Једноставан 3Д прегледник заснован на ЦесиумЈС-у</p>"
+        },
+        "manager": {
+          "html": "<h3>Менаџер</h3><p>Преглед карата MS Геопортала</p>"
+        },
+        "mouseposition": {
+          "html": "<h3>Контрола положаја миша</h3><p>Примери прилагођавања</p>"
+        },
+        "scalebar": {
+          "html": "<h3>Контрола скале</h3><p>Примери прилагођавања</p>"
+        },
+        "layertree": {
+          "html": "<h3>Напредно стабло слојева</h3><p>Примери прилагођавања</p>"
+        },
+        "queryform": {
+          "html": "<h3>Креатор упита</h3><p>Примери прилагођавања</p>"
+        },
+        "featuregrid": {
+          "html": "<h3>Едитор објеката</h3><p>Примери прилагођавања</p>"
+        },
+        "print": {
+          "html": "<h3>Притисните</h3><p>Примери прилагођавања</p>"
+        },
+        "plugins": {
+          "html": "<h3>Плугинс</h3><p>Направите сопствену апликацију</p>"
+        },
+        "api": {
+          "html": "<h3>API</h3><p>Користи API да укључи карту MS Геопортала у своју апликацију</p>"
+        },
+        "rasterstyler": {
+          "html": "<h3>Едитор растерског стила</h3><p>Стилизирајте своје растере</p>"
+        }
+      }
+    },
+    "cookiesPolicyNotification": {
+      "title": "Овај сајт користи колачиће",
+      "message": "Ако наставите да користите ову страницу, прихватате нашу употребу колачића.",
+      "confirm": "прихватам"
+    },
+    "manager": {
+      "openInANewTab": "Отвори карту",
+      "deleteMap": "Избриши карту",
+      "deleteMapMessage": "Да ли сте сигурни да желите да избришете ову карту?",
+      "editMapMetadata": "промените својства карте",
+      "mapTypes_combo": "Изаберите прегледач карте: ",
+      "theme_combo": "Изабрати тему:",
+      "maps_title": "Карте",
+      "locales_combo": "Језик:",
+      "featuredMaps": "Изабране карте"
+    },
+    "newMap": "Нова карта",
+    "newMapEmpty": "Празна карта",
+    "newMapContext": "Постојећи контекст",
+    "maps": {
+      "title": "Карте",
+      "addToFeaturedMaps": "Додај на изабране картице",
+      "removeFromFeaturedMaps": "Уклони са изабраних карата",
+      "feedback": {
+        "noDetailsAvailable": "Детаљи нису доступни",
+        "successSavedMap": "Карта је исправно направљена",
+        "errorDeletingMap": "Грешка при брисању ове карте",
+        "errorDeletingThumbnailOfMap": "Грешка при брисању сличице ове карте",
+        "errorDeletingDetailsOfMap": "Грешка при брисању детаља ове карте",
+        "allResDeleted": "Сви ресурси повезани са овом картом су успешно избрисани",
+        "errorFetchingDetailsOfMap": "Грешка при преузимању детаља за ову карту",
+        "details": {
+          "deletedSuccesfully": "Детаљи су успешно уклоњени",
+          "savedSuccesfully": "Детаљи су успешно сачувани",
+          "updatedSuccesfully": "Детаљи су успешно ажурирани"
+        },
+        "thumbnail": {
+          "deletedSuccesfully": "Сличица је успешно уклоњена",
+          "savedSuccesfully": "Сличица је успешно снимљена",
+          "updatedSuccesfully": "Сличица је успешно ажурирана"
+        },
+        "errorWhenSaving": "Дошло је до грешке током процеса снимања",
+        "errorWhenUpdating": "Дошло је до грешке током процеса ажурирања",
+        "errorWhenDeleting": "Дошло је до грешке током процеса брисања",
+        "errorSizeExceeded": "Смањите величину детаља или квалитет слике",
+        "errorLoadingContexts": "Дошло је до грешке при учитавању контекста"
+      },
+      "search": "претражи карте..."
+    },
+    "resources": {
+      "successSaved": "Ресурси су исправно сачувани",
+      "deleteConfirmTitle": "да ли сте сигурни",
+      "deleteConfirmMessage": "Да ли сте сигурни да желите да избришете ове ресурсе?",
+      "deleteConfirmButtonText": "Избриши",
+      "deleteCancelButtonText": "Близу",
+      "resource": {
+        "deleteResource": "Избриши",
+        "editResource": "Уредите својства",
+        "editResourceData": "модификовати податке о ресурсима",
+        "addToFeatured": "Додај у изабрано",
+        "removeFromFeatured": "Уклони из изабраних",
+        "showDetails": "Прикажи детаље"
+      },
+      "contents": {
+        "title": "Садржај"
+      },
+      "dashboards": {
+        "newDashboard": "Нова контролна табла",
+        "title": "Контролне табле ({count})",
+        "titleNoCount": "Контролне табле",
+        "create": "Направите контролну таблу",
+        "noDashboardAvailable": "Нема доступних контролних табли",
+        "createANewOne": "Направите нову",
+        "deleteError": "Дошло је до грешке приликом брисања ресурса",
+        "errorLoadingDashboards": "Дошло је до грешке при учитавању контролних табли"
+      },
+      "maps": {
+        "title": "Карте ({count})",
+        "noMapAvailable": "Карта није доступна",
+        "createNewOne": "Направите нову",
+        "unsavedMapConfirmTitle": "Промене се не бележе",
+        "unsavedMapConfirmMessage": "Да ли сте сигурни да желите да оставите несачуване промене?",
+        "unsavedMapConfirmButtonText": "Остави",
+        "unsavedMapCancelButtonText": "Близу"
+      },
+      "geostories": {
+        "newGeostory": "Нови StoryMap",
+        "title": "StoryMap-e ({count})",
+        "titleNoCount": "StoryMap-e",
+        "create": "Направите StoryMap",
+        "noGeostoryAvailable": "Нема StoryMap-e на располагању",
+        "createANewOne": "Направите нови StoryMap",
+        "deleteError": "Дошло је до грешке приликом брисања StoryMap-е",
+        "errorLoadingGeostories": "Дошло је до грешке при учитавању StoryMap-е"
+      }
+    },
+    "map": {
+      "errorLoadingFont": "Породица фонтова {family} није правилно учитана. ",
+      "loading": "Учитавање...",
+      "loadingSpinner": "Учитавање карте",
+      "loadingerror": "Грешка при учитавању",
+      "name": "Име",
+      "description": "Опис",
+      "namePlaceholder": "Име карте",
+      "descriptionPlaceholder": "Опис карте",
+      "saveTitle": "Снимите карту",
+      "saveText": "Снимити тренутну карту?",
+      "thumbnail": "Сличица",
+      "message": "Превуците или кликните да бисте увезли слику",
+      "suggestion": "(пожељно 300 х 180 пиксела, максимално 500 kb)",
+      "errorFormat": "Подржани формати: png/jpg",
+      "errorSize": "Максимална дозвољена величина: 500 kb",
+      "errorCustomSize": "Максимална дозвољена величина: {maxFileSize}",
+      "error": "Слика је неважећа",
+      "savedMapTitle": "Карта је снимљена",
+      "savedMapMessage": "Карта је исправно снимљена",
+      "thumbnailError": {
+        "error403": "Немате дозволу да ажурирате сличице",
+        "error404": "Дошло је до грешке при прављењу сличице",
+        "error409": "Сличица са тим именом већ постоји",
+        "errorDefault": "Мрежна грешка"
+      },
+      "mapError": {
+        "errorTitle": "Није могуће сачувати тренутну карту",
+        "error403": "Немате дозволу да ажурирате карту",
+        "error404": "Дошло је до грешке при креирању карте",
+        "error409": "Карта са тим именом већ постоји",
+        "error500": "Интерна грешка сервера. ",
+        "errorDefault": "Мрежна грешка"
+      },
+      "permissions": {
+        "noRules": "Нема правила",
+        "addRule": "Додај правило...",
+        "selectGroup": "Изаберите групу...",
+        "canView": "може да прегледа",
+        "canWrite": "може променити",
+        "noResult": "Нема резултата",
+        "title": "Групе дозвола"
+      },
+      "details": {
+        "back": "Назад",
+        "save": "Запис",
+        "show": "Прикажи таблу са детаљима",
+        "add": "Додајте нови детаљ",
+        "edit": "уреди детаљ",
+        "rowTitle": "Панел са детаљима",
+        "title": "Панел са детаљима – {name}",
+        "undo": "Поништи уклањање",
+        "showPreview": "Покажи преглед",
+        "hidePreview": "Сакриј преглед",
+        "delete": "Избришите таблу са детаљима",
+        "titleUnsavedChanges": "Да ли сте сигурни да желите да затворите без чувања промена?",
+        "sureToClose": "Да ли сте сигурни да желите да затворите без чувања промена?",
+        "fieldsChanged": "Нека поља су измењена"
+      },
+      "errors": {
+        "loading": {
+          "title": "Карта се не може приказати",
+          "notFound": "Карта није пронађена",
+          "notAccessible": "Карта није доступна",
+          "unknownError": "<p><small>Један од следећих разлога може бити узрок:</small> <ul><li>немате приступне дозволе</li> <li>покушавате да приступите карти која не постоји</li> <li>карта је уклоњена</li> <li>пројекција карте није прилагођена</li></ul><p>",
+          "projectionError": "Пројекција карте {projection} није конфигурисана"
+        }
+      },
+      "cesiumTerrainSelector": {
+        "chooseTerrainTitle": "Избор поља"
+      }
+    },
+    "floatinglegend": {
+      "showTOC": "Прикажи слојеве",
+      "showLegend": "Прикажи легенду",
+      "hideLegend": "Сакриј легенду"
+    },
+    "addgroup": {
+      "addbtn": "Додати",
+      "groupName": "Назив групе"
+    },
+    "toc": {
+      "toggleLayerVisibility": "промените видљивост слоја",
+      "toggleGroupVisibility": "промените видљивост групе",
+      "displayLegendAndTools": "Прикажи легенду и алате",
+      "zoomToLayerExtent": "Прикажи цео обим слоја",
+      "addLayer": "Додајте слој",
+      "addLayerToGroup": "Додајте слој у изабрану групу",
+      "addGroup": "Додајте групу",
+      "addSubGroup": "Додајте подгрупу изабраној групи",
+      "toolZoomToLayerTooltip": "Прикажи цео опсег изабраног слоја",
+      "toolZoomToLayersTooltip": "Прикажи цео опсег изабраних слојева",
+      "toolLayerSettingsTooltip": "Својства изабраног слоја",
+      "toolGroupSettingsTooltip": "Својства изабране групе",
+      "toolTrashLayerTooltip": "Уклоните изабрани слој",
+      "toolTrashLayersTooltip": "Уклоните изабране слојеве",
+      "toolTrashGroupTooltip": "Уклоните изабрану групу",
+      "toolFeaturesGridTooltip": "Отворите табелу атрибута",
+      "layerFilterTooltip": "Филтерски слој",
+      "toolDownloadTooltip": "Преузмите податке о слојевима",
+      "noFilteredResults": "Нема резултата",
+      "filterPlaceholder": "Филтер слојева",
+      "clearFilter": "Очистите филтер",
+      "toolReloadLayerTooltip": "Поново учитајте изабрани слој",
+      "toolReloadLayersTooltip": "Поново учитајте изабране слојеве",
+      "statusIconOpen": "Затворите групу",
+      "statusIconClose": "Отворите групу",
+      "grabLayerIcon": "Узмите и сортирајте слој",
+      "grabGroupIcon": "Снимите и сортирајте групу",
+      "toggleLayerVisibilityWarning": "Промените видљивост слоја, Упозорење: слој се није правилно учитао",
+      "createWidget": "Направите виџет за изабрани слој",
+      "editLayerProperties": "модификовати својства слоја",
+      "browseData": "Отворите табелу атрибута",
+      "removeLayer": "Уклоните слој",
+      "loadingerror": "Слој се није правилно учитао или није доступан",
+      "measure": "Измери то",
+      "backgroundSwitcher": "Подлоге",
+      "layers": "Слојеви",
+      "drawerButton": "Слојеви",
+      "refreshTitle": "Ажурирајте слојеве",
+      "refreshConfirm": "ажурирање",
+      "refreshMessage": "Поново учитајте конфигурацију ВМС слојева са сервера",
+      "refreshError": "Грешка при ажурирању слојева: ",
+      "epsgNotSupported": "CRS {epsg} није подржан за приближавање на слој",
+      "filterIconEnabled": "Онемогући филтер слојева",
+      "filterIconDisabled": "Омогући филтер слојева",
+      "refreshOptions": {
+        "bbox": "Ажурирај гранични оквир",
+        "search": "Ажурирај подешавања претраге",
+        "title": "Ажурирај наслов",
+        "dimensions": "Ажурирај димензије"
+      },
+      "layerMetadata": {
+        "identifier": "Идентификатор",
+        "title": "Наслов",
+        "abstract": "Апстрактан",
+        "purpose": "Сврха",
+        "source": "Извор",
+        "createdDate": "Датум израде",
+        "lastRevisionDate": "Датум последње ревизије",
+        "pointsOfContact": "Тачке контакта",
+        "individualName": "Индивидуално име",
+        "organisationName": "Назив организације",
+        "contactInfo": "Контакт информације",
+        "phone": "Број телефона",
+        "deliveryPoints": "Тачке испоруке",
+        "city": "Цити",
+        "postalCode": "Поштански код",
+        "country": "земља",
+        "URL": "URL",
+        "metadataUrl": "URL метаподатака",
+        "role": "Улога",
+        "hoursOfService": "Радно време",
+        "electronicMailAddress": "Адреса Е-поште",
+        "subject": "Тема",
+        "type": "Дечко, момак, тип",
+        "creator": "Творац",
+        "defaultPropName": "Својство=\"{propName}\"",
+        "toolLayerMetadataTooltip": "Прикажи мета-податке изабраног слоја",
+        "layerMetadataPanelTitle": "Метаподаци слоја",
+        "notification": {
+          "warnigGetMetadataRecordById": "Грешка при претраживању метаподатака"
+        },
+        "itemTitles": {
+          "pointsOfContact": "Контакт",
+          "default": "Предмет"
+        },
+        "emptyMetadata": "Нема доступних метаподатака"
+      },
+      "thematic": {
+        "classification_field": "Класификационо поље:",
+        "classification_method": "Метод класификације:",
+        "classification_aggregate": "Функција агрегације:",
+        "classification_colors": "Опсег боја:",
+        "classification_intervals": "Интервали:",
+        "preview": "Преглед",
+        "remove_thematic": "Назад на једноставан стил",
+        "values": {
+          "equalInterval": "Једнаки интервали",
+          "quantile": "Квантил",
+          "jenks": "Природне границе",
+          "sum": "Сума",
+          "avg": "Просек",
+          "count": "Број",
+          "min": "Минимум",
+          "max": "Максимум"
+        },
+        "configuration": "Постављање",
+        "apply": "Примените класификацију",
+        "restore": "Ресетујте подешавања",
+        "go_to_cfg": "Прилагоди...",
+        "go_to_thema": "Користите ову тему",
+        "cfgError": "Грешка у конфигурацији JSON-а",
+        "classify": "Разврстај",
+        "remove": "Уклоните класификацију",
+        "data_panel": "Подаци",
+        "classification_stroke": "Корак",
+        "classification_error": "Грешка при позивању услуге класификације: {message}",
+        "fields_error": "Грешка при учитавању листе поља: {message}",
+        "interval_limit": "Интервали треба да буду бројеви између {min} и {max}",
+        "invalid_object": "Нетачан одговор сервиса",
+        "invalid_geometry": "Тип геометрије је нетачан – није тачка, линија или полигон",
+        "invalid_classes": "Максимум мора бити већи од минимума у ​​свим разредима"
+      },
+      "error": {
+        "defaultGroupOnTop": "Група {groupTitle} је постављена као примарна циљна група, тако да мора бити на врху"
+      },
+      "compareTool": "Упоредити",
+      "configureTool": "Конфигуришите",
+      "spyconfiguration": "Подешавања дурбина",
+      "swipeconfiguration": "Превуците подешавање",
+      "swipe": "Превлачење",
+      "spyGlass": "Дурбин",
+      "direction": "Смер превлачења",
+      "radius": "Пречник",
+      "notVisibleZoomIn": "Слој није видљив јер је ван резолуције. ",
+      "notVisibleZoomOut": "Слој није видљив јер је ван резолуције. ",
+      "layerInfoTooltip": "Уредите наслов и опис слоја"
+    },
+    "print": {
+      "paneltitle": "Притисните",
+      "layout": "Распоред",
+      "sheetsize": "Величина листа:",
+      "legendoptions": "Постављање легенде",
+      "submit": "Принт",
+      "title": "Наслов",
+      "titleplaceholder": "Унесите наслов...",
+      "description": "Опис",
+      "descriptionplaceholder": "Унесите опис...",
+      "resolution": "Резолуција:",
+      "defaultBackground": "Користи ОСМ као основу",
+      "printtooltip": "Притисните",
+      "scale": "Скала",
+      "includeScale": "Узмите у обзир размеру у штампању",
+      "alternatives": {
+        "legend": "Укључите легенду",
+        "2pages": "Легенда на посебној страници",
+        "landscape": "Хоризонтално",
+        "portrait": "Усправно"
+      },
+      "legend": {
+        "font": "Конфигурација ознаке:",
+        "forceLabels": "Присилите ознаке:",
+        "antiAliasing": "Уклоните оштре ивице слова:",
+        "iconsSize": "Величина фонта:",
+        "dpi": "Дпи:"
+      },
+      "layoutWarning": "Неважећи распоред",
+      "outputFormat": "Формат",
+      "graticule": "додајте мрежу са ознакама"
+    },
+    "backgroundSwither": {
+      "tooltip": "Изаберите позадину"
+    },
+    "info": {
+      "tooltip": "Информације о објектима на карти"
+    },
+    "expandtoolbar": {
+      "tooltip": "Проширити колапс"
+    },
+    "getFeatureInfoTitle": "Информације о објектима",
+    "identifyTitle": "Информације о објекту",
+    "identifyNoQueryableLayers": "Нема активних слојева за преузимање информација",
+    "identifyRevGeocodeHeader": "Координате",
+    "identifyZoomToFeature": "Зумирајте објекат",
+    "identifyStopHighlightingFeatures": "Без истицања објеката",
+    "identifyHighlightFeatures": "Истицање објеката",
+    "identifyShowCoordinateEditor": "Прикажи унос координата",
+    "identifyHideCoordinateEditor": "Сакриј унос координата",
+    "identifyCoordinateApplyChanges": "Примените промене",
+    "identifyRevGeocodeModalTitle": "Адреса",
+    "identifyRevGeocodeSubmitText": "Више информација",
+    "identifyStreetView": "Приказ локације у режиму Приказа улице",
+    "identifyRevGeocodeCloseText": "Близу",
+    "identifyRevGeocodeError": "Није могуће геокодирати",
+    "identifyEdit": "Уредити",
+    "identifyLayerSelectNoResult": "Није пронађен ниједан слој",
+    "identifyDeleteDocumentNotifTitle": "Брисање документа",
+    "identifyDeleteDocumentNotifTextSuccess": "Документ је успешно избрисан.",
+    "identifyDeleteDocumentNotifTextErr": "Дошло је до грешке приликом брисања документа.",
+    "identifyAddDocumentNotifTitle": "Додавање документа",
+    "identifyAddDocumentNotifTextSuccess": "Документ је успешно додат.",
+    "identifyAddDocumentNotifTextErr": "Дошло је до грешке при додавању документа.",
+    "identifyChangeFeaturePropertiesNotifTitle": "Уредите детаље",
+    "identifyChangeFeaturePropertiesTextSuccess": "Детаљи су успешно измењени.",
+    "identifyChangeFeaturePropertiesTextErr": "Дошло је до грешке при уређивању детаља.",
+    "gForm": {
+      "title": "Модификација података",
+      "fieldMappingInvalidErrMsg": "Мапирање поља није важеће.",
+      "fieldMappingInvalidFieldListErrMsg": "Следећа поља обрасца не постоје у бази података:",
+      "saveBtnText": "Запис",
+      "setDefaultBtnText": "Фабрички подешен"
+    },
+    "getFeatureInfoError": {
+      "title": "Упс! ",
+      "text": "Дошло је до грешке са овим <b>GetFeatureInfo</b> упитао"
+    },
+    "noFeatureInfo": "Нема доступних информација за тачку на коју сте кликнули",
+    "noInfoForLayers": "Нема објеката у следећим слојевима: ",
+    "history": {
+      "barLabel": "Историја карте",
+      "undoBtnTooltip": "Вратити се",
+      "redoBtnTooltip": "Хајде"
+    },
+    "infoFormatLbl": "Формат резултата упита за информације о објекту",
+    "infoTriggerLabel": "Акција која покреће упит за информацијама о објектима",
+    "click": "Он кликне на функцију",
+    "hover": "Задржите показивач миша на функцији",
+    "measureSupport": {
+      "continueLine": "Кликните да наставите са цртањем линије",
+      "continuePolygon": "Кликните да наставите са цртањем полигона",
+      "startDrawing": "Кликните да бисте започели цртање"
+    },
+    "measureComponent": {
+      "Measure": "Мерење",
+      "MeasureLength": "Мерење дужине",
+      "MeasureArea": "Мерење површине",
+      "MeasureBearing": "Мерење азимута",
+      "MeasureTrueBearing": "Мерење правог азимута",
+      "tooltip": "Мерење дужине и површине",
+      "title": "Мерење",
+      "lengthButtonText": "Линија",
+      "areaButtonText": "Подручје",
+      "resetButtonText": "Ресетовање",
+      "lengthLabel": "Дужина",
+      "areaLabel": "Подручје",
+      "bearingLabel": "Азимут",
+      "trueBearingLabel": "Прави азимут",
+      "formula": "Формула за израчунавање удаљености",
+      "showLabel": "Прикажи ознаку мерења",
+      "addAsAnnotation": "Додајте као напомену",
+      "newMeasure": "Нова напомена",
+      "selectTool": "Изаберите алатку за мерење",
+      "exportToGeoJSON": "Извези као ГеоЈСОН",
+      "resetTooltip": "Јасна мерења",
+      "addAsLayer": "Додај као слој"
+    },
+    "search": {
+      "decimal": "Децималне",
+      "aeronautical": "Аеронаутичке",
+      "changeSearchInputField": "Промени алат за претрагу",
+      "addressSearch": "Претрага",
+      "coordinatesSearch": "Тражи по координатама",
+      "searchservicesbutton": "Конфигуришите услуге претраге",
+      "configpaneltitle": "Креирајте/уредите услугу претраге",
+      "serviceslistlabel": "Доступни сервиси",
+      "overriedservice": "Замени подразумеване сервисе",
+      "addbtn": "Додати",
+      "nextbtn": "Следећи",
+      "prevbtn": "Назад",
+      "savebtn": "Сачувај/ажурирај",
+      "cancelbtn": "Одустани од тога",
+      "confirmremove": "Избрисати?",
+      "cancelconfirm": "Да ли сте сигурни?",
+      "s_name": "Име",
+      "s_title": "Наслов",
+      "s_description": "Опис",
+      "s_priority": "Приоритет",
+      "s_url": "Url сервиса",
+      "s_layer": "Слој",
+      "s_attributes": "Атрибути",
+      "s_sort": "Сортирај по",
+      "s_max_features": "Мак објеката",
+      "s_max_zoom": "Максимални ниво зума",
+      "s_wfs_props_label": "Својства WFS сервиса",
+      "s_wfs_opt_props_label": "Додатне функције",
+      "s_result_props_label": "Својства приказа резултата",
+      "s_priority_info": "Користи се за сортирање резултата претраге, прво ниже вредности.",
+      "serviceslistempty": "Ниједан сервис није дефинисан",
+      "service_missing": "{serviceType} сервис није конфигурисана",
+      "generic_error": "Дошло је до грешке при претраживању. ",
+      "layerMustBeVisible": "Циљни слој је неактиван",
+      "searchByBookmark": "Тражи по обележивачу",
+      "bookmarksettings": "Подешавања обележивача",
+      "zoomToBookmark": "Увећајте изабрани обележивач",
+      "bookmarkFilter": "Филтрирајте обележиваче",
+      "editBookmark": "Уреди обележивач",
+      "deleteBookmark": "Избриши обележивач",
+      "b_listpaneltitle": "Прикажи обележиваче",
+      "b_newpaneltitle": "Додај обележивач",
+      "latitude": "Гео. ширина",
+      "longitude": "Гео. дужина",
+      "b_title": "Наслов",
+      "b_layer_tooltip": "Промените видљивост слоја",
+      "b_bbox": "Гранични оквир",
+      "b_bbox_tooltip": "Користи тренутни приказ као гранични оквир",
+      "b_bbox_south": "Југ",
+      "b_bbox_south_placeholder": "Иди на југ",
+      "b_bbox_west": "Запад",
+      "b_bbox_west_placeholder": "Иди на запад",
+      "b_bbox_east": "Исток",
+      "b_bbox_east_placeholder": "Иди на исток",
+      "b_bbox_north": "Север",
+      "b_bbox_north_placeholder": "иди на север",
+      "bookmarkslistempty": "Нема обележивача",
+      "b_placeholder": "Изаберите обележивач...",
+      "b_clearvalue": "Избриши обележивач",
+      "b_noresult": "Нема обележивача",
+      "showGFI": "Прикажи GFI",
+      "errors": {
+        "nonQueriableLayers": "Слој који се налази на url-у не може да се прикаже на карти",
+        "serverError": "Сервер је вратио грешку приликом обраде захтева GetFeatureInfo. "
+      },
+      "s_launch_info_panel": {
+        "label": "Покрените Инфо панел",
+        "no_info": "Нема информација",
+        "all_layers": "Сви слојеви",
+        "single_layer": "Пронађите слој",
+        "no_info_description": "Идентификовани панел неће бити приказан у претрази",
+        "all_layers_description": "Идентификовани панел ће приказати информације о свим слојевима видљивим на карти",
+        "single_layer_description": "Идентификовани панел ће приказати податке доступне кроз WFS претрагу"
+      },
+      "advancedSearchPanel": {
+        "title": "Напредни филтери за претрагу",
+        "context": {
+          "title": "Контекст"
+        },
+        "showTooltip": "Прикажи напредне филтере",
+        "showTooltipActive": "Прикажи активне напредне филтере",
+        "hideTooltip": "Сакриј напредне филтере",
+        "hideTooltipActive": "Сакриј активне напредне филтере",
+        "openFeatureInfoButtonCheckbox": "Користите дугме да отворите информације о објекту",
+        "forceSearchLayerVisibility": "Форсирајте видљивост слоја за претрагу"
+      }
+    },
+    "draw": {
+      "fill": "Попунити",
+      "text": "Текст",
+      "fontTitle": "Фонт",
+      "color": "Боја",
+      "lineDash": "Повлачење",
+      "stroke": "Корак",
+      "opacity": "Транспарентност",
+      "width": "Ширина",
+      "font": {
+        "textColor": "Боја",
+        "family": "Породица",
+        "size": "Величина",
+        "style": "Стиле",
+        "weight": "Дебљина",
+        "textAlign": "Поравнање"
+      },
+      "marker": {
+        "layout": "Распоред",
+        "shape": "Облик",
+        "size": "Величина",
+        "type": "Дечко, момак, тип",
+        "icon": "Икона"
+      }
+    },
+    "drawLocal": {
+      "draw": {
+        "toolbar": {
+          "actions": {
+            "title": "Престани да црташ",
+            "text": "Одустани од тога"
+          },
+          "undo": {
+            "title": "Избришите последњу нацртану тачку",
+            "text": "Обришите последњу тачку"
+          },
+          "buttons": {
+            "polyline": "Нацртајте полилинију",
+            "polygon": "Нацртајте полигон",
+            "rectangle": "Нацртај правоугаоник",
+            "circle": "Нацртајте круг",
+            "marker": "Нацртајте ознаку"
+          }
+        },
+        "handlers": {
+          "circle": {
+            "tooltip": {
+              "start": "Кликните и превуците да бисте нацртали круг."
+            }
+          },
+          "marker": {
+            "tooltip": {
+              "start": "Кликните на карту да бисте поставили обележивач."
+            }
+          },
+          "polygon": {
+            "tooltip": {
+              "start": "Кликните да бисте почели да цртате објекат.",
+              "cont": "Кликните да наставите са цртањем објекта.",
+              "end": "Кликните на прву тачку да затворите овај објекат."
+            }
+          },
+          "polyline": {
+            "error": "Грешка: Ивице објекта не смеју да се пресецају!",
+            "tooltip": {
+              "start": "Кликните да почнете да цртате линију.",
+              "cont": "Кликните да наставите са цртањем линије.",
+              "end": "Кликните на последњу тачку да бисте завршили линију."
+            }
+          },
+          "rectangle": {
+            "tooltip": {
+              "start": "Кликните и превуците да бисте нацртали правоугаоник."
+            }
+          },
+          "simpleshape": {
+            "tooltip": {
+              "end": "Пустите миша да завршите цртање."
+            }
+          }
+        }
+      },
+      "edit": {
+        "toolbar": {
+          "actions": {
+            "save": {
+              "title": "Сачувајте промене.",
+              "text": "Запис"
+            },
+            "cancel": {
+              "title": "Завршите измене, одбаците све промене.",
+              "text": "Одустани од тога"
+            }
+          },
+          "buttons": {
+            "edit": "Уреди слој.",
+            "editDisabled": "Нема слојева за уређивање.",
+            "remove": "Избришите слојеве.",
+            "removeDisabled": "Нема слојева за брисање."
+          }
+        },
+        "handlers": {
+          "edit": {
+            "tooltip": {
+              "text": "Превуците ручке или ознаку да бисте уредили објекат.",
+              "subtext": "Кликните на Откажи да одбаците промене."
+            }
+          },
+          "remove": {
+            "tooltip": {
+              "text": "Кликните на објекат да бисте га уклонили"
+            }
+          }
+        }
+      }
+    },
+    "locate": {
+      "tooltip": "Лоцирај ме",
+      "tooltipDeactivate": "Прекини да показујеш моју позицију",
+      "metersUnit": "метара",
+      "feetUnit": "стопа",
+      "popup": "Налазите се унутар {distance} {unit} од ове тачке",
+      "outsideMapBoundsMsg": "Чини се да сте ван граница ове карте"
+    },
+    "zoombuttons": {
+      "zoomInTooltip": "Приближи",
+      "zoomOutTooltip": "Удаљи",
+      "zoomAllTooltip": "Прикажи максимални домет"
+    },
+    "fullscreen": {
+      "tooltipActivate": "Прикажи преко целог екрана",
+      "tooltipDeactivate": "Изађите преко целог екрана",
+      "viewLargerMap": "Прикажи већу карту"
+    },
+    "helptexts": {
+      "scaleBox": "Ово је помоћно средство за контролу скале",
+      "zoomToMaxExtentButton": "Ово је помоћник за контролу приказа у пуној скали",
+      "zoomIn": "Ово је помоћно средство за контролу приступа",
+      "zoomOut": "Ово је помоћно средство за даљинско управљање",
+      "searchBar": "Унесите адресу места за претрагу, нпр. 'Устаничка, Београд'. Можете такође унети координате у овом формату: 44.78,20.48",
+      "metadataexplorer": "Ово је помоћ за контролу приказа метаподатака",
+      "settingsPanel": "Ово је помоћ за контролу подешавања",
+      "gohome": "Ово је помоћ за контролу почетне странице",
+      "measureComponent": "Ово је помоћно средство за контролу мерења",
+      "backgroundSwitcher": "Ово је помоћно средство за контролу промене супстрата",
+      "layerSwitcher": "Ово помаже у контроли прекидача слојева",
+      "infoButton": "Ово је помоћ за контролу преузимања информација",
+      "locateBtn": "Ово је помоћ за контролу локације",
+      "snapshot": "Ово је помоћ за контролу снимања",
+      "potree": "Ово је помоћ за 3Д приказ",
+      "print": "Ово је помоћ за контролу штампања",
+      "shapefile": "Ово је помоћ за контролу отпремања Shapefile-а",
+      "rasterstyler": "Наведите минималне и максималне вредности, као и број класа и палету боја да бисте креирали нову класификацију за изабрани растерски слој",
+      "expandToolbar": "Ово је помоћ за контролу Прошири / Сузи",
+      "historyundo": "Користите ово дугме да се вратите на последње увећање и позицију на карти",
+      "historyredo": "Користите ово дугме да бисте прешли на следеће увећање и позицију на карти",
+      "vectorstyler": "Додајте правило и креирајте нови стилизовани векторски слој",
+      "styler": "Додајте правило и креирајте нови стилизовани слој"
+    },
+    "queryform": {
+      "title": "Напредна претрага",
+      "query": "Претрага",
+      "apply": "Применити",
+      "reset": "Ресетовање",
+      "save": "Запис",
+      "discard": "Поништи",
+      "query_request_exception": "Грешка у упиту",
+      "config": {
+        "load_config_exception": "Грешка при учитавању подешавања"
+      },
+      "comboField": {
+        "default_placeholder": "Изаберите...",
+        "drop_down": "Отворите падајући мени"
+      },
+      "form": {
+        "header": "Пронађите у скупу података",
+        "dataset_header": "Скуп података"
+      },
+      "emptyfilter": "Није постављен филтер. ",
+      "attributefilter": {
+        "add_condition": " Додајте услов",
+        "delete": " Избриши",
+        "add_group": " Додајте групу",
+        "group_label_a": "Одговара",
+        "group_label_b": "од следећих захтева:",
+        "combo_placeholder": "Атрибут",
+        "text_placeholder": "Унесите текст за претрагу",
+        "attribute_filter_header": "Филтер атрибута",
+        "tooltipTextField": "користити <b>*</b> за било који број било ког карактера</br>користити <b>.</b> за један лик</br>користи <b>!</b> да користите претходне знакове у изразу (!* и !.)</br>",
+        "groupField": {
+          "any": "било који",
+          "all": "свима",
+          "none": "никад"
+        },
+        "numberfield": {
+          "isRequired": "Обавезна вредност поља",
+          "wrong_range": "Доња вредност мора бити мања од горње"
+        },
+        "datefield": {
+          "wrong_date_range": "Датум почетка мора бити ранији од последњег датума"
+        },
+        "autocomplete": {
+          "emptyList": "Нема резултата",
+          "emptyFilter": "Филтер није дао никакве резултате",
+          "open": "Отворите листу избора"
+        }
+      },
+      "spatialfilter": {
+        "filterType": "Тип филтера",
+        "geometric_operation": "Геометријске операције",
+        "combo_placeholder": "Изаберите...",
+        "spatial_filter_header": "Просторни филтер",
+        "remove": "Уклони",
+        "draw_start_label": "Нацртајте област од интереса на карти",
+        "dwithin_label": "метара",
+        "details": {
+          "detail_button_label": "Детаљи",
+          "details_header": "Детаљи избора",
+          "details_bbox_label": "Уредите координате да бисте променили област",
+          "details_circle_label": "Уредите нумеричко поље да бисте подесили пречник и центар круга",
+          "reset_bbox": "Ресетовање",
+          "save_bbox": "Сачувајте измену граничног оквира",
+          "save_radius": "Забележите промену пречника/центра",
+          "radius": "Пречник"
+        },
+        "methods": {
+          "zone": "Зона",
+          "viewport": "Почетни поглед",
+          "regions": "Региони",
+          "box": "Правоугаоник",
+          "buffer": "Buffer",
+          "circle": "Цирцле",
+          "poly": "Полигон",
+          "cql": "CQL"
+        },
+        "operations": {
+          "intersects": "Пресеца",
+          "bbox": "Гранични оквир",
+          "contains": "Је садржано",
+          "dwithin": "Удаљен од",
+          "within": "Садржи"
+        }
+      },
+      "crossLayerFilter": {
+        "title": "Филтер слоја",
+        "targetLayer": "Циљни слој",
+        "clear": "Обриши филтер",
+        "operation": "Операција",
+        "placeholder": "Изаберите слој",
+        "errors": {
+          "noCrossLayerAvailable": "Вишеслојно филтрирање није омогућено за изабрани слој"
+        }
+      },
+      "changedFilter": "Филтер је промењен",
+      "changedFilterAlert": "Постоје промене које нису сачуване. ",
+      "resetFilter": "Уклоните филтер",
+      "confirmReset": "Потврди",
+      "loadingError": "Тренутни филтер је изазвао проблем у приказивању слоја на карти. ",
+      "changedFilterWithErrorAlert": "Филтер изазива грешку у приказу слоја, да ли ипак желите да га сачувате?"
+    },
+    "annotations": {
+      "errorLoadingSymbols": "Дошло је до проблема при учитавању листе симбола. Молимо контактирајте администратора за проверу конфигурације",
+      "edit": "Уредити",
+      "remove": "Избриши",
+      "save": "Запис",
+      "saveGeometry": "Снимите геометрију",
+      "cancel": "Одустани од тога",
+      "back": "Назад",
+      "applyStyle": "Примени стил",
+      "addMarker": "Додајте нови маркер на карти",
+      "addGeometry": "Додајте геометрију",
+      "styleGeometry": "Изаберите другачији стил за тачке",
+      "deleteGeometry": "Уклоните геометрију",
+      "geometries": "Геометрија",
+      "removeannotation": "Да ли желите да уклоните белешку са насловом: {title}?",
+      "removegeometry": "Да ли желите да уклоните све белешке?",
+      "confirm": "Потврди",
+      "mandatory": "Обавезно поље",
+      "emptygeometry": "Геометрија не може бити празна",
+      "empty": "Нема напомена, кликните да додате [+]",
+      "add": "Нова",
+      "filter": "Филтрирај белешке...",
+      "undo": "Да ли сте сигурни да желите да престанете да тренутно уређујете своје белешке?",
+      "titleUndoGeom": "Геометрија се променила",
+      "undoGeom": "Да ли желите да изађете без чувања промена? ",
+      "confirmGeom": "Потврди",
+      "cancelModalGeom": "Одустани од тога",
+      "deleteFeature": "Избришите овај објекат",
+      "undoDeleteFeature": "Да ли желите да избришете овај објекат?",
+      "enableEdit": "Омогући измене",
+      "editMeasurement": "Уреди мерење",
+      "title": "Белешке",
+      "zoomTo": "Приближи",
+      "zoomToGeometry": "Приближите се геометрији",
+      "hide": "Сакриј белешку",
+      "show": "Покажи белешку",
+      "tabCoordinates": "Координате",
+      "warning": "Упозорење!",
+      "measureWarningText": "Прелазак на уређивање мерења ће уклонити примењене стилове",
+      "notShowAgain": "Немојте поново приказивати поруку",
+      "tabStyle": "Стил",
+      "insertText": "Убаците текстуалну белешку",
+      "downloadtooltip": "Преузмите белешку",
+      "downloadcurrenttooltip": "Преузмите тренутну белешку",
+      "downloadError": "Грешка при извозу",
+      "loadtooltip": "Увезите белешке",
+      "loadtitle": "Увезите белешке",
+      "selectfiletext": "Превуците датотеку овде или кликните да бисте изабрали датотеку белешке за увоз. ",
+      "loadoverride": "Размените белешке",
+      "loaderror": "Изаберите једну или више датотека са белешкама. (подржани формати: json)",
+      "defaulttitle": "Измените подразумевани наслов",
+      "field": {
+        "title": "Наслов",
+        "description": "Опис"
+      },
+      "titles": {
+        "marker": " Ознака",
+        "line": " Линија",
+        "polygon": " Полигон",
+        "text": " Текст",
+        "circle": " Кружница"
+      },
+      "editor": {
+        "decimal": "Децималне",
+        "aeronautical": "Аеронаутичке",
+        "title": {
+          "Polygon": "Уређивач полигона",
+          "LineString": "Уређивач линија",
+          "Bearing": "Уређивач азимута",
+          "Circle": "Уређивач кругова",
+          "Point": "Уређивач ознака",
+          "MultiPoint": "Уређивач линија",
+          "Text": "Уређивач текст"
+        },
+        "center": "Центар",
+        "add": "Додајте нове координате",
+        "addByClick": "Додајте нове координате кликом на дугме плус или на карти",
+        "valid": "Геометрија је исправна",
+        "radius": "Пречник",
+        "text": "Текст",
+        "lat": "Ширина",
+        "lon": "Географска дужина",
+        "notValidMarker": "Унесите исправне координате (|- 90° ширине, |-180° дужине)",
+        "notValidPolyline": "Све координате морају бити исправне (|- 90° ширине, |-180° дужине)",
+        "notValidText": "Унесите текстуалну вредност и исправне координате (|- 90° ширине, |-180° дужине)",
+        "notValidCircle": "Унесите вредност радијуса и исправне координате (|- 90° ширине, |-180° дужине)",
+        "newFeature": "Ново"
+      }
+    },
+    "user": {
+      "login": "Пријавите се",
+      "logout": "Проверити",
+      "info": "Информације о налогу",
+      "details": "Подаци о кориснику",
+      "noAttributesMessage": "Нема информација повезаних са вашим налогом",
+      "changePwd": "Промени лозинку",
+      "newPwd": "Нова лозинка",
+      "retypePwd": "Поново унесите код",
+      "passwordMinlenght": "Ваша лозинка мора да има најмање {minSize} знакова",
+      "passwordCheckFail": "Кодови се не поклапају!",
+      "passwordInvalid": "Неважећа лозинка",
+      "username": "Корисничко име",
+      "password": "Код",
+      "passwordMessage": "Код мора да садржи најмање 6 знакова",
+      "passwordChanged": "Шифра је промењена",
+      "passwordError": "Грешка при промени лозинке",
+      "signIn": "Пријавите се",
+      "loginFail": "Грешка при пријављивању",
+      "loginFailedStatusMessages": {
+        "usernamePwdInsert": "Молимо Вас да унесете своје корисничко име и лозинку",
+        "usernamePwdIncorrect": "Корисничко име или лозинка нетачни"
+      },
+      "detailsName": "Име",
+      "detailsRole": "Улога",
+      "detailsGroups": "Групе",
+      "detailsEmail": "Е-маил",
+      "detailsCompany": "Компанија",
+      "detailsNotes": "Напомене"
+    },
+    "users": {
+      "title": "Управљајте корисничким налозима",
+      "users": "Корисници",
+      "manageUsers": "Управљајте корисницима",
+      "searchUsers": "Претражи кориснике...",
+      "newUser": "Нови корисник",
+      "editUser": "Промени корисника",
+      "deleteUser": "Избриши корисника",
+      "statusTitle": "статус",
+      "enabled": "Омогућено",
+      "groupTitle": "групе:",
+      "roleTitle": "Улога",
+      "saveUser": "Запис",
+      "savingUser": "Пуцање...",
+      "userSaved": "Снимљено!",
+      "createUser": "Креирај",
+      "creatingUser": "Прављење...",
+      "userCreated": "Направљено!",
+      "deleting": "Брисање...",
+      "delete": "Избриши",
+      "confirmDeleteUser": "Да ли сте сигурни да желите да избришете овог корисника?",
+      "errorDelete": "Дошло је до грешке приликом брисања овог корисника:",
+      "errorSaving": "Дошло је до грешке при снимању овог корисника:",
+      "selectedGroups": "ОДАБРАНЕ ГРУПЕ",
+      "requiredFiedsMessage": "Поља означена звездицом (*) су обавезна"
+    },
+    "usergroups": {
+      "searchGroups": "Претражи групе...",
+      "groups": "Групе",
+      "nameLimit": "Име је ограничено на 255 карактера.",
+      "descLimit": "Опис је ограничен на 255 знакова.",
+      "editGroup": "Уреди групу",
+      "deleteGroup": "Избриши групу",
+      "removeUser": "Уклони корисника",
+      "newGroup": "Нова група",
+      "manageGroups": "Управљајте групама",
+      "description": "Опис:",
+      "noDescriptionAvailable": "(Нема описа)",
+      "groupName": "Назив групе",
+      "groupDescription": "Опис",
+      "saveGroup": "Запис",
+      "createGroup": "Креирај",
+      "creatingGroup": "Направљено...",
+      "groupMembers": "Чланови:",
+      "addMember": "Додај члана:",
+      "selectMemberPlaceholder": "Изаберите члана...",
+      "noUsers": "Нема корисника за ову групу",
+      "errorSaving": "Дошло је до грешке при снимању ове групе",
+      "errorDelete": "Дошло је до грешке приликом брисања ове групе",
+      "confirmDeleteGroup": "Да ли сте сигурни да желите да избришете ову групу?"
+    },
+    "share": {
+      "title": "Подели",
+      "titlePanel": "Поделите карту",
+      "socialIntro": "На вашој омиљеној друштвеној мрежи",
+      "directLinkTitle": "Преко директне везе",
+      "embeddedLinkTitle": "Преко уграђеног кода",
+      "social": "Друштвена мрежа",
+      "direct": "Директно",
+      "code": "Уграђивање",
+      "forceDrawer": "Прикажи контролу садржаја",
+      "apiLinkTitle": "Користећи API",
+      "QRCodeLinkTitle": "QR код",
+      "msgCopiedUrl": "Копирано",
+      "msgToCopyUrl": "Кликните да бисте копирали",
+      "sharedTitle": "Посетите моју нову карту: ",
+      "advancedOptions": "Напредне функције",
+      "addBboxParam": "Додајте параметар bbox линку за дељење",
+      "wrongBboxParamTitle": "Неважећи параметар bbox-а",
+      "wrongBboxParamMessage": "bbox параметри морају бити у EPSG:4326 и написани као bbox=minx,miny,maxx,maxy",
+      "showHomeButton": "Линк до почетне странице MS Геопортала"
+    },
+    "snapshot": {
+      "title": "Видео преглед",
+      "save": "Запис",
+      "tooltip": "Направите снимак карте.",
+      "googleBingError": "Гоогле и Бинг слојеви нису доступни за снимање због ограничења ауторских права.",
+      "downloadingSnapshots": "снимање је у току",
+      "date": "Датум",
+      "layers": "Слојеви",
+      "size": "Величина",
+      "notsupported": "Снимак није подржан",
+      "taintedMessage": "Функционалност снимања је ограничена због неких безбедносних подешавања претраживача. "
+    },
+    "webcam": {
+      "title": "Поглед на веб камеру",
+      "tooltip": "Сликати се"
+    },
+    "gallery": {
+      "title": "Поглед галерије",
+      "tooltip": "Приступите галерији"
+    },
+    "potree": {
+      "tooltip": "3Д приказ",
+      "title": "3Д приказ"
+    },
+    "shapefile": {
+      "title": "Додајте локалну датотеку",
+      "tooltip": "Додајте локалну векторску датотеку. (подржани формати: shapefile-ovi морају бити садржани у zip архиви, KML/KMZ i GPX)",
+      "placeholder": "Превуците датотеку овде или кликните да бисте изабрали датотеке облика за увоз. ",
+      "defaultStyle": "Подразумевани стил",
+      "zoom": "Прикажите карту у оквиру векторске датотеке",
+      "error": {
+        "select": "Изаберите једну или више векторских датотека (подржани формати: shapefile-ovi морају бити садржани у zip архиви, KML/KMZ и GPX)",
+        "shapeFileParsingError": "Није могуће учитати векторску датотеку. ",
+        "genericLoadError": "Није могуће учитати векторску датотеку на карту",
+        "missingPrj": "Не постоје информације о пројекцији (.prj), координатни систем треба да буде EPSG:4326"
+      },
+      "add": "Додати",
+      "cancel": "Одустани од тога",
+      "success": " увезено исправно",
+      "next": "Следећи",
+      "skip": "Прескочи",
+      "finish": "Завршити",
+      "layerOf": "Слој {count} од {total}:"
+    },
+    "mapImport": {
+      "title": "Увези",
+      "dropZone": {
+        "heading": "<p><h4>Превуците своју конфигурацију или векторске датотеке овде</h4><small>или</small></p>",
+        "selectFiles": "Изаберите датотеке...",
+        "infoSupported": "<p><small>Подржане конфигурационе датотеке: MS Геопортал формат<br />Подржане датотеке векторског слоја: shapefile (мора бити садржано у zip архиви), KML/KMZ, GeoJSON или GPX</small></p>",
+        "note": "<p><small><i><strong>Белешка</strong>: тренутна карта ће бити замењена у случају учитавања конфигурационих датотека</i></small></p>"
+      },
+      "errors": {
+        "fileNotSupported": "Датотека није подржана",
+        "unknownError": "Дошло је до непознате грешке током увоза",
+        "projectionNotSupported": "Пројекција датотека(а) које покушавате да увезете није подржана"
+      }
+    },
+    "mapExport": {
+      "title": "Извези карту",
+      "exportPanel": {
+        "title": "<p><h4>Изаберите жељени формат</h4></p>",
+        "exportButtonLabel": "Извоз"
+      },
+      "formats": {
+        "mapstore2": {
+          "label": "MS Геопортал",
+          "description": "<p><small>Формат конфигурације карте MS Геопортал</small></p>"
+        },
+        "wmc": {
+          "label": "WMC",
+          "description": "<p><small>OGC Web Map Context формат</small></p>",
+          "note": "<p><small><i><strong>белешке</strong>: подржава WMC формат <strong>само WMS слојеви</strong></i></small></p>"
+        }
+      },
+      "errorTitle": "Извоз карте није успео",
+      "wmcNoLayersError": "За извоз у WMC потребан је најмање један WMS слој, пронађено је нула."
+    },
+    "catalog": {
+      "start": "Датум почетка ",
+      "end": "Последњи датум ",
+      "notAvailable": "Није доступно",
+      "title": "Каталог",
+      "autoload": "Претражујте када бирате услугу",
+      "clearValueText": "Јасно избор",
+      "noResultsText": "Нема резултата",
+      "tooltip": "Прегледајте каталог",
+      "addToMap": "Додај на карту",
+      "getWMSLink": "Преузмите везу до WMS-а",
+      "error": "Дошло је до грешке при учитавању записа из каталога",
+      "pageInfo": "Резултати {start}-{end} од {total}",
+      "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} Објекти од {total}} остали {{start}-{end} од {total}}}",
+      "pageInfoInfinite": "{total, plural, =недефинисано {} =0 {Нема резултата} =1 {{total} од {total} подударања} остало {Учитано {loaded} од {total} подударања}}",
+      "noRecordsMatched": "Нема одговарајућих записа",
+      "wmsGetCapLink": "WMS",
+      "wfsGetCapLink": "WFS",
+      "share": "Дели",
+      "copyToClipboard": "Копирај у кеш",
+      "copied": "Копирано!",
+      "textSearchPlaceholder": "тражи текст...",
+      "search": "Претрага",
+      "delete": "Избриши",
+      "reset": "Поспремити",
+      "options": "Могућности",
+      "srs_not_allowed": "Овај сервис не подржава пројекцију карте",
+      "add": "Додати",
+      "service": "Сервис",
+      "servicePlaceholder": "ступити у службу",
+      "url": "Url",
+      "urlPlaceholder": "унесите URL",
+      "type": "Тип",
+      "serviceTitle": "Наслов",
+      "serviceTitlePlaceholder": "Унесите наслов",
+      "tms": {
+        "provider": "Провајдер",
+        "urlTemplate": "URL образац",
+        "urlTemplateHint": "<p>URL образац за вашу прилагођену TMS услугу, са могућношћу уноса променљивих (приказано помоћу заграда, нпр. <code>{var_name}</code>) који ће бити замењен апликацијом.</p>",
+        "customTMSConfiguration": "Прилагођена TMS конфигурација",
+        "customTMSConfigurationHint": "<p>Опције могу да садрже:<br/><ul><li><code>\"subdomains\": ['a', 'b']</code>: користи се за више домена, замењујући <code>{s}</code> у URL шаблону</li><li><code>\"maxNativeZoom\": 20</code>: максимални зум са сервера</li></ul></p>",
+        "forceDefaultTileGrid": "Форсирај основни tile grid",
+        "forceDefaultTileGridDescription": "Користите tile grid глобалне пројекције уместо порекла и резолуцијe које обезбеђује сервер. Ово је корисно за неке TMS сервисе који пропагирају погрешно порекло или резолуцију."
+      },
+      "tileprovider": {
+        "tooltip": "x,y,z су tile позиције, s је поддомен (основни)"
+      },
+      "missingReference": "Референтни OGC метаподаци недостају",
+      "showDescription": "Прикажи пун опис",
+      "hideDescription": "Сакриј цео опис",
+      "templateFormatDescriptionExample": "Опис слоја је",
+      "showTemplate": "Прикажи образац за метаподатке",
+      "showPreview": "Покажи преглед",
+      "advancedSettings": "Напредне функције",
+      "templateMetadataAvailable": "Метаподаци доступни у формату Dublin Core: abstract, boundingBox, contributor, creator, description, format, identifier, references, rights, source, subject, temporal, title, type, uri",
+      "notification": {
+        "errorTitle": "Грешка",
+        "errorSearchingRecords": "Неки од записа нису пронађени: {records} Проверите параметре url упита",
+        "warningAddCatalogService": "Унесите тачан url и наслов",
+        "addCatalogService": "Сервис је исправно додата",
+        "duplicatedServiceTitle": "Сервис са тим насловом већ постоји. Молим, промените наслов",
+        "serviceDeletedCorrectly": "Сервис је успешно избрисан",
+        "errorServiceUrl": "Сервис није доступан. Молим, проверите унесени url"
+      },
+      "backgroundAlreadyAdded": "Додато у бирач позадине",
+      "enableLocalizedLayerStyles": {
+        "label": "Омогућите локализоване стилове",
+        "tooltip": "Упозорење: Овај параметар захтева посебну конфигурацију GeoServera"
+      }
+    },
+    "uploader": {
+      "filename": "Име датотеке",
+      "type": "Дечко, момак, тип",
+      "lastModified": "Последња измена",
+      "filesize": "Величина",
+      "beforeUpload": "Припрема за пренос... ",
+      "uploadingFiles": "Пренос података...",
+      "dropfile": "превуците датотеке овде за пренос",
+      "dropfileImport": "превуците овде датотеке које ћете укључити у пренос"
+    },
+    "importer": {
+      "title": "Увезите податке",
+      "imports": "Увезите сесије",
+      "importN": "Сесија {id}",
+      "creatingImportProcess": " Прављење сесије увоза... ",
+      "dropfile": "превуците датотеке овде да бисте креирали нову сесију увоза",
+      "dropfileImport": "превуците овде датотеке које ћете укључити у увоз",
+      "process": "Сесија",
+      "number": "",
+      "workspace": {
+        "create": "Направи",
+        "createWS": "направите нову радну површину: ",
+        "target": "одредишна радна површина: ",
+        "failure": "Грешка при прављењу радне површине: {statusWS}",
+        "success": "Радно окружење {statusWS} је успешно креирано",
+        "select": "Изаберите одредишно окружење радне површине",
+        "new": "Назив нове радне површине..."
+      },
+      "import": {
+        "actions": "Акције",
+        "tasks": "Пакети",
+        "runImport": "Извршити",
+        "deleteImport": "Избриши сесију",
+        "deleteTask": "Избриши",
+        "status": "Статус",
+        "archive": "Архива",
+        "deleting": "Брисање...",
+        "analyzing": "Проверавам пакет...",
+        "applyingPreset": "Примена подешавања..."
+      },
+      "task": {
+        "panelTitle": "Увези пакет {id}",
+        "general": "Опште информације",
+        "status": "Статус",
+        "updateMode": "Метод ажурирања",
+        "originalData": "ИЗВОРНА датотека",
+        "file": "Име датотеке",
+        "format": "Формат",
+        "targetStore": "Складиште података о одредишту",
+        "storeType": "Врста складиштења",
+        "storeName": "Име складишта",
+        "layer": "Слој",
+        "transforms": "Ланац трансформација",
+        "update": "ажурирање",
+        "run": "Увезите овај пакет",
+        "edit": "Ажурирајте подразумевани стил",
+        "delete": "Избришите овај пакет"
+      },
+      "transform": {
+        "panelTitle": "Трансформација {id}",
+        "type": "Врста трансформације",
+        "actions": "Акције",
+        "options": "Подешавања трансформације",
+        "overviewlevels": "Ниво прегледа",
+        "delete": "Избришите ову трансформацију"
+      }
+    },
+    "rasterstyler": {
+      "tooltip": "Креирајте и модификујте стил растерског слоја",
+      "paneltitle": "Растер Стилизер",
+      "layerlabel": "Слој",
+      "typelabel": "Тип стила",
+      "opacitylabel": "Транспарентност",
+      "redtitle": "Црвено",
+      "greentitle": "Зелено",
+      "bluetitle": "Плаво",
+      "graytitle": "Сиво",
+      "pseudobandtitle": "Избор канала",
+      "eqinttitle": "Класификација једнаких интервала",
+      "pseudotitle": "Псеудоцолор подешавања",
+      "applybtn": "Примени стил"
+    },
+    "bandselector": {
+      "band": "Канал",
+      "enhancement": "Побољшање",
+      "algorithmTitle": "Додатни алгоритам",
+      "value": "Вредност",
+      "min": "Мин",
+      "max": "Макс",
+      "enha": {
+        "none": "Ништа",
+        "Normalize": "Нормализе",
+        "Histogram": "Хистограм",
+        "GammaValue": "Гама корекција"
+      },
+      "algorithm": {
+        "none": "Ништа",
+        "StretchToMinimumMaximum": "Растегни",
+        "ClipToMinimumMaximum": "Одсеци",
+        "ClipToZero": "Исећи на нулу"
+      }
+    },
+    "equalinterval": {
+      "min": "Мин",
+      "max": "Макс",
+      "classes": "класе",
+      "ramp": "Палета боја",
+      "classify": "Разврстај",
+      "maxerror": "Максимална вредност мора бити већа од минималне вредности",
+      "minerror": "Мин. вредност мора бити мања од максималне вредности"
+    },
+    "colormapgrid": {
+      "color": "Боја",
+      "quantity": "Количина",
+      "label": "Етикета",
+      "minmaxerror": "Вредност мора бити између вредности претходне и следеће ћелије"
+    },
+    "pseudocolorsettings": {
+      "type": "Дечко, момак, тип",
+      "extended": "Проширен",
+      "colormap": "Карта у боји",
+      "add": "Додајте унос",
+      "remove": "Уклони унос"
+    },
+    "rasterstyletype": {
+      "rgb": "RGB",
+      "gray": "У сивим тоновима",
+      "pseudo": "Псеудоцолор",
+      "multi": "Више канала",
+      "single": "Један канал"
+    },
+    "featuregrid": {
+      "columns": "Колумне",
+      "header": "Претражите листу резултата",
+      "tools": "Тоолбар",
+      "export": "Извоз",
+      "selectall": "Изабери све",
+      "deselectall": "Јасно избор",
+      "backtosearch": "Назад на претрагу",
+      "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} резултати {total}} остало {{start}-{end} од {total}}}",
+      "resultInfoVirtual": "{total, plural, =0 {Нема резултата} =1 {{total} од {total}} осталих {{total} резултата}}",
+      "pageInfo": "{totalPages, plural, =0 {Нема страница} =1 {Страница {totalPages} од {totalPages}} остало {Страница {page} од {totalPages}}}",
+      "pagination": {
+        "page": "Страна",
+        "of": "оф",
+        "to": "до",
+        "more": "више"
+      },
+      "noFeaturesAvailable": "Нема доступних објеката",
+      "errorSaving": "Дошло је до грешке током операције снимања",
+      "errorProjFetch": "Грешка при преузимању израза прој4 са спатиалреференце.орг. ",
+      "notSupportedGeometryTitle": "Тип геометрије није подржан ",
+      "notSupportedGeometry": "Тип геометрије тренутног слоја није подржан, али можете ажурирати атрибуте",
+      "yesButton": "да",
+      "noButton": "Не",
+      "deleteButton": "Избриши",
+      "clear": "Да ли заиста желите да игноришете све до сада направљене промене?",
+      "featureClose": "Да ли сте сигурни да желите да затворите табелу објеката?",
+      "delete": "Да ли желите да потврдите брисање {count} објеката?",
+      "missingGeometry": "Недостаје геометрија",
+      "filter": {
+        "placeholders": {
+          "default": "Тражити...",
+          "string": "Унесите текст филтера...",
+          "date": "Унесите датум за филтрирање...",
+          "number": "Унесите вредност или израз..."
+        },
+        "tooltips": {
+          "editMode": "Брза претрага није доступна док су промене активне",
+          "default": "Тражити...",
+          "string": "Унесите текст филтера...",
+          "number": "Унесите вредност или израз. ",
+          "date": "Унесите датум или фразу. ",
+          "geometry": {
+            "disabled": "Филтрирајте кликове на карти",
+            "enabled": "Кликните на карту да бисте филтрирали резултате",
+            "applied": "Уклоните филтер кликом миша"
+          }
+        }
+      },
+      "toolbar": {
+        "synchPopoverTitle": "Синхронизујте карту са филтером ",
+        "synchPopoverText": "Користите овај алат да синхронизујете карту са изабраним филтером",
+        "notShowAgain": "  Не показуј ову поруку",
+        "editMode": "Промена",
+        "advancedFilter": "Напредна претрага",
+        "quitEditMode": "Напустите промене",
+        "addNewFeatures": "Додајте нови објекат",
+        "editFeature": "Уреди објекат",
+        "drawGeom": "Нацртај објекат",
+        "stopDrawGeom": "Престаните да креирате геометрију",
+        "addGeom": "Додајте геометрију постојећем објекту",
+        "deleteSelectedFeatures": "Избришите изабране објекте",
+        "saveChanges": "Сачувајте промене",
+        "saving": "Пуцање...",
+        "cancelChanges": "Поништи промене",
+        "deleteGeometry": "Избришите геометрију",
+        "downloadGridData": "Преузми податке из табеле објеката",
+        "hideShowColumns": "Сакриј/прикажи колоне",
+        "zoomAll": "Прикажи до обима странице",
+        "syncOnMap": "Повежите карту са активним филтером",
+        "enableTimeSync": "Синхронизујте са изабраним временом или временским опсегом",
+        "disableTimeSync": "искључите синхронизацију са изабраним временом или временским опсегом",
+        "createNewChart": "Направите графикон за изабрани слој"
+      }
+    },
+    "wfsdownload": {
+      "title": "Извези податке",
+      "format": "Формат датотеке",
+      "srs": "Координатни систем",
+      "export": "Извоз",
+      "downloadonlycurrentpage": "Извезите само тренутну страницу",
+      "error": {
+        "title": "Грешка при извозу",
+        "invalidOutputFormat": "Изабрани формат није подржан"
+      }
+    },
+    "layerdownload": {
+      "title": "Извоз података",
+      "format": "Формат датотеке",
+      "srs": "Просторни референтни систем",
+      "export": "Извоз",
+      "downloadonlycurrentpage": "Преузмите само тренутну страницу",
+      "cropDataSet": "Изрежите скуп података до видљивог приказа",
+      "downloadFilteredDataSet": "Преузмите филтрирани скуп података",
+      "advancedOptions": "Напредне опције",
+      "compression": "Компресија",
+      "tileWidth": "Ширина плочице",
+      "tileHeight": "Висина репа",
+      "quality": "Квалитет",
+      "error": {
+        "title": "Грешка током извоза",
+        "invalidOutputFormat": "Формат извоза није подржан",
+        "downloadEstimatorTitle": "Грешка при приказивању тока преузимања",
+        "downloadEstimatorFailed": "Приказивање тока преузимања није успело, извезена датотека је већа од ограничења на серверу. "
+      },
+      "exportResultsMessages": {
+        "newExport": "Датотека ће бити доступна овде када се извоз заврши",
+        "exportFailure": "Извоз слоја \"{layerTitle}\" није успео! Отворите прозор резултата извоза за више информација.",
+        "exportSuccess": "Извоз слоја \"{layerTitle}\" је завршен.",
+        "invalidHref": "Одговор са сервера није садржао исправну УРЛ адресу за извезене датотеке!"
+      },
+      "wpsExecuteError": {
+        "processFailed": "Преузимање није успело! ",
+        "badResponse": "Преузимање није успело! ",
+        "executeProcessXhrFailed": "Захтев за извршење није успео! ",
+        "getExecutionStatusXhrFailed": "Захтев за статус извршења није успео! ",
+        "unexpectedError": "Дошло је до необрађене грешке"
+      },
+      "noSupportedServiceFound": "Сервер не подржава WFS или WPS преузимање за овај слој!"
+    },
+    "exportDataResults": {
+      "title": "Извези резултате",
+      "emptyStateMessage": "Листа за извоз је празна"
+    },
+    "widgets": {
+      "types": {
+        "map": {
+          "title": "Карта",
+          "caption": "додати карту"
+        },
+        "legend": {
+          "title": "Легенда",
+          "caption": "додати легенду"
+        },
+        "chart": {
+          "title": "Графикон",
+          "caption": "додати графикон"
+        },
+        "text": {
+          "title": "Текст",
+          "caption": "додајте област за текст"
+        },
+        "table": {
+          "title": "Сто",
+          "caption": "додати табелу"
+        },
+        "counter": {
+          "title": "Колосек",
+          "caption": "Додајте мерач"
+        }
+      },
+      "selectWidgetType": "Изаберите тип виџета",
+      "selectChartType": {
+        "title": "Изаберите тип виџета"
+      },
+      "selectMap": {
+        "TOC": {
+          "noLayerTitle": "Нема слојева",
+          "noLayerDescription": "На овој карти нема слојева. "
+        },
+        "emptyMap": {
+          "title": "Празна картица",
+          "description": "Иди са празном картицом"
+        }
+      },
+      "title": "Наслов",
+      "description": "Опис",
+      "errors": {
+        "notext": "Нема доступног текста",
+        "nodata": "Нема доступних података за изабрани слој/филтер",
+        "noLegend": "Нема елемената за приказ у легенди",
+        "noLegendDescription": "Повезана карта нема слојеве за приказ у легенди",
+        "nodatainviewport": "У тренутном приказу нема података",
+        "timeoutExpired": "Сервису је потребно предуго да одговори. ",
+        "genericError": "Дошло је до грешке при преузимању података"
+      },
+      "builder": {
+        "header": {
+          "title": "Widget"
+        },
+        "wizard": {
+          "backToTypeSelection": "Назад на избор типа",
+          "backToWidgetTypeSelection": "Назад на избор типа виџета",
+          "backToFeatureGrid": "Назад на табелу атрибута",
+          "backToLayerSelection": "Назад на избор слојева",
+          "backToMapSelection": "Назад на избор карте",
+          "backToPreview": "Назад на преглед",
+          "backToChartOptions": "Назад на подешавања графикона",
+          "selectALayer": "Изаберите слој",
+          "selectAMap": "Изаберите карту",
+          "configureChartOptions": "Подесите подешавања графикона",
+          "configureWidgetOptions": "Прилагодите подешавања widget-а",
+          "backToTableOptions": "Назад на подешавања табеле",
+          "configureTableOptions": "Подесите поставке табеле",
+          "resetColumnsSizes": "Поништите све промене ширине колоне",
+          "updateWidget": "Ажурирај widget",
+          "addTheWidget": "Додајте widget",
+          "titlePlaceholder": "Убаци наслов...",
+          "textPlaceholder": "Убаци текст...",
+          "useThisMap": "Користите ову картицу",
+          "configureMapOptions": "Конфигуришите подешавања карте",
+          "preview": "Преглед",
+          "addLayer": "Додајте слој на карту",
+          "useTheSelectedLayer": "Користи изабрани слој",
+          "connectToAMap": "Повежите се са другим widget-ом",
+          "connectToTheMap": "Повежите се са другим widget-ом",
+          "selectMapToConnect": "Изаберите widget за повезивање",
+          "clearConnection": "Обриши везу"
+        },
+        "errors": {
+          "noAttributesTitle": "Нема атрибута за приказ",
+          "noAttributesDescription": "Изабрани слој нема атрибуте приказа. ",
+          "noWidgetsAvailableTitle": "Није могуће направити widget за изабрани слој",
+          "noWidgetsAvailableDescription": "<p><strong>Покушајте да изаберете други слој или тип widget-а</strong></p><p>Сервер нема потребне услуге доступне за слој и изабрани тип widget-а</p><p>Могући узроци су: <ul><li>изабрани слој је растерски слој</li><li>WFS услуга није доступна</li><li>WPS процес <code>gs:aggregate</code> није доступно</li></ul></p>",
+          "checkAtLeastOneAttribute": "Обавезан избор најмање једне колоне",
+          "noMapAvailableForLegend": "Нема доступних улазница",
+          "noMapAvailableForLegendDescription": "За креирање легенде потребан је најмање један widget карте"
+        },
+        "setupFilter": "Направите филтер за податке widget"
+      },
+      "widget": {
+        "menu": {
+          "showChartData": "Прикажи податке графикона",
+          "edit": "Уредити",
+          "delete": "Избриши",
+          "collapse": "Скрати то",
+          "confirmDelete": "Да ли сте сигурни?",
+          "downloadData": "Преузми податке",
+          "exportImage": "Извези слику",
+          "pin": "Обележи то",
+          "unpin": "Сакриј обележивач",
+          "hide": "Сакрити",
+          "hideDescription": "Сакриј овај widget од других корисника",
+          "unhide": "Откријте",
+          "unhideDescription": "Откријте овај widget другим корисницима"
+        }
+      },
+      "chartType": {
+        "bar": {
+          "title": "Дијаграм",
+          "description": "Направите тракасти графикон који ћете додати на карту",
+          "caption": "стубасти"
+        },
+        "pie": {
+          "title": "Табела облика колача",
+          "description": "Направите графикон облика колача који ћете додати на карту",
+          "caption": "торта"
+        },
+        "line": {
+          "title": "Линијски графикон",
+          "description": "Направите линијски графикон који ћете додати на карту",
+          "caption": "линија"
+        },
+        "gauge": {
+          "title": "Гауге цхарт",
+          "description": "Направите графикон мерача који ћете додати на карту",
+          "caption": "Колосек"
+        }
+      },
+      "chartOptionsTitle": "Подаци графикона",
+      "widgetOptionsTitle": "Информације о виџету",
+      "placeHolder": {
+        "default": "Изаберите атрибут"
+      },
+      "groupByAttributes": {
+        "line": "X атрибут",
+        "pie": "Групиши по",
+        "bar": "X атрибут",
+        "gauge": "Групиши по",
+        "counter": "Групиши по",
+        "default": "Групиши по"
+      },
+      "aggregationAttribute": {
+        "line": "Y атрибут",
+        "pie": "Користи",
+        "bar": "Y атрибут",
+        "gauge": "Користи",
+        "counter": "Користи",
+        "default": "Користи"
+      },
+      "aggregateFunction": {
+        "line": "Операција",
+        "pie": "Операција",
+        "bar": "Операција",
+        "gauge": "Операција",
+        "counter": "Операција",
+        "default": "Операција"
+      },
+      "colorRamp": {
+        "line": "Боја",
+        "pie": "Палета боја",
+        "bar": "Боја",
+        "gauge": "Боја",
+        "counter": "Боја",
+        "default": "Боја"
+      },
+      "uom": {
+        "line": "Јединица мере",
+        "pie": "Јединица мере",
+        "bar": "Јединица мере",
+        "gauge": "Јединица мере",
+        "counter": "Јединица мере",
+        "default": "Јединица мере"
+      },
+      "mapSync": "Динамички филтер према приказу карте",
+      "displayLegend": {
+        "line": "Прикажи легенду",
+        "pie": "Прикажи легенду",
+        "bar": "Прикажи легенду",
+        "gauge": "Прикажи ознаке"
+      },
+      "displayCartesian": {
+        "line": "Сакриј мрежу",
+        "bar": "Сакриј мрежу"
+      },
+      "xAxisAngle": {
+        "line": "X оса: Угао ротације ознаке °",
+        "bar": "X оса: Угао ротације ознаке °"
+      },
+      "yAxis": {
+        "line": "Сакриј Y осу",
+        "bar": "Сакриј Y осу"
+      },
+      "yAxisLabel": {
+        "line": "Ознака у легенди",
+        "bar": "Ознака у легенди"
+      },
+      "advancedOptions": {
+        "line": "Напредне функције",
+        "bar": "Напредне функције"
+      },
+      "tray": {
+        "title": "Видгетс",
+        "expandTray": "Проширите траку widget-а",
+        "collapseTray": "Минимизирајте траку widget-а",
+        "expandAll": "Проширите све widget-е",
+        "collapseAll": "Минимизирајте све widget-е",
+        "notifications": {
+          "collapsed": {
+            "message": "Временска линија и виџети не могу да се приказују истовремено. ",
+            "timelineTitle": "Временски оквир је скраћен",
+            "widgetsTitle": "Widget-и су сажети"
+          }
+        }
+      }
+    },
+    "dashboard": {
+      "loadingSpinner": "Учитавање контролне табле",
+      "errors": {
+        "loading": {
+          "title": "Грешка при учитавању контролне табле",
+          "dashboardNotAccessible": "Немате дозволу да приступите овој табли. ",
+          "pleaseLogin": "Ова контролна табла није јавна. ",
+          "dashboardDoesNotExist": "Контролна табла којој покушавате да приступите не постоји или је уклоњена",
+          "unknownError": "Дошло је до грешке при учитавању контролне табле. ",
+          "notFound": "Контролна табла није пронађена",
+          "notAccessible": "Контролна табла није доступна"
+        },
+        "resourceAlreadyExists": "Ресурс са овим именом већ постоји",
+        "forbidden": "Дошло је до неочекиване грешке (403 Забрањено). ",
+        "forbidden405": "Дошло је до неочекиване грешке (405 Забрањено). "
+      },
+      "editor": {
+        "save": "Снимите контролну таблу",
+        "addACardToTheDashboard": "Додајте widget на контролну таблу",
+        "showConnections": "Прикажи везе",
+        "hideConnections": "Сакриј везе"
+      },
+      "emptyTitle": "Табла је празна"
+    },
+    "context": {
+      "loadingSpinner": "Учитавање садржаја",
+      "errors": {
+        "loading": {
+          "title": "Грешка при учитавању контекста",
+          "notAccessible": "Ресурс није доступан",
+          "pleaseLogin": "Неки ресурси нису јавно доступни. ",
+          "unknownError": "Дошло је до грешке при учитавању карте или контекста. ",
+          "notFound": "Ресурс није пронађен"
+        },
+        "context": {
+          "notAccessible": "Немате приступ овом контексту. ",
+          "pleaseLogin": "Контекст није јавно доступан. ",
+          "unknownError": "Дошло је до грешке при учитавању контекста. ",
+          "notFound": "Контекст којем покушавате да приступите не постоји."
+        },
+        "template": {
+          "title": "Грешка при учитавању обрасца",
+          "notAccessible": "Немате права приступа датом обрасцу. ",
+          "pleaseLogin": "Овај образац није јаван. ",
+          "unknownError": "Дошло је до грешке при учитавању обрасца. ",
+          "notFound": "Образац којем покушавате да приступите не постоји."
+        },
+        "map": {
+          "notAccessible": "Немате дозволу да приступите овој фасцикли. ",
+          "pleaseLogin": "Карта није јавно доступна. ",
+          "unknownError": "Дошло је до грешке при учитавању карте. ",
+          "notFound": "Фасцикла којој покушавате да приступите не постоји."
+        },
+        "plugins": {
+          "upload": "Грешка при отпремању plugin-a.",
+          "uninstall": "Грешка током деинсталације plugin-a."
+        },
+        "resourceAlreadyExists": "Ресурс са овим именом већ постоји."
+      }
+    },
+    "wizard": {
+      "next": "Напред",
+      "prev": "Назад",
+      "finish": "Завршити"
+    },
+    "vectorstyler": {
+      "tooltip": "Креирајте и уредите стил векторског слоја",
+      "paneltitle": "Вецтор Стилизер",
+      "layerlabel": "Слој",
+      "rulelabel": "Правила",
+      "namelabel": "Назив правила",
+      "symboltitle": "Симбол",
+      "labeltitle": "Етикета",
+      "conditiontitle": "Услови",
+      "applybtn": "Примени стил",
+      "addrulebtn": "Додајте правило",
+      "removerulebtn": "Уклони правило"
+    },
+    "scaledenominator": {
+      "minlabel": "Минимално мерило",
+      "maxlabel": "Максимално мерило",
+      "maxerror": "Максимална вредност мора бити већа од минималне",
+      "minerror": "Минимална вредност мора бити мања од максималне вредности",
+      "none": "Ниједан"
+    },
+    "markNameSelector": {
+      "circle": "Кружница",
+      "square": "Квадрат",
+      "triangle": "Троугао",
+      "star": "Звезда",
+      "cross": "Крст",
+      "x": "X"
+    },
+    "styler": {
+      "tooltip": "Креирајте и уредите стил слоја",
+      "paneltitle": "Стилиста",
+      "layerlabel": "Слој"
+    },
+    "styleeditor": {
+      "styleListfilterPlaceholder": "Филтрирајте стилове по имену, наслову или резимеу",
+      "templateFilterPlaceholder": "Филтрирајте листу стилова према наслову",
+      "createStyleFromTemplate": "Изаберите образац да бисте креирали нови стил",
+      "titleRequired": "<div>Наслов је обавезан!</div><div>Наслови животописа морају бити у алфанумеричком формату</div>",
+      "titleSettings": "Наслов",
+      "titleSettingsplaceholder": "Унесите наслов (алфанумерички)",
+      "abstractSettings": "Резиме",
+      "abstractSettingsplaceholder": "Унесите резиме (алфанумерички)",
+      "createStyleModalTitle": "Креирајте нови стил",
+      "filterMatchNotFound": "Ниједан стил не одговара филтеру",
+      "backToList": "Назад на листу стилова",
+      "createNewStyle": "Креирајте нови стил",
+      "editSelectedStyle": "Измените изабрани стил",
+      "saveCurrentStyle": "Снимите тренутни стил",
+      "addSelectedTemplate": "Додајте изабрани образац у листу стилова",
+      "deleteSelectedStyle": "Избришите изабрани стил",
+      "closeWithoutSaveAlertTitle": "Стил је промењен",
+      "closeWithoutSaveAlert": "Изађите из уређивача стилова без чувања промена",
+      "deleteStyleAlertTitle": "Избриши стил",
+      "deleteStyleAlert": "Изабрани стил ће бити трајно избрисан",
+      "delete": "Избриши",
+      "defaultStyle": "Подразумевани стил",
+      "availableStyle": "Доступан стил",
+      "styleNotFound": "Стил није пронађен",
+      "noPermission": "Корисник не може да мења стилове",
+      "deletedStyleSuccessTitle": "Избриши стил",
+      "deletedStyleSuccessMessage": "Стил је успешно избрисан",
+      "deletedStyleErrorTitle": "Грешка при брисању стила",
+      "deletedStyleErrorMessage": "Тренутни стил се не може избрисати",
+      "savedStyleTitle": "Стил је снимљен",
+      "savedStyleMessage": "Стил је успешно снимљен",
+      "missingAvailableStyles": "Недостају стилови",
+      "missingAvailableStylesMessage": "<ul><h4>Могући узроци:</h4> <li>Изабрани слој је слој групе</li><li>Слој није правилно конфигурисан на страни сервера</li></ul>",
+      "createTmpErrorTitle": "Нови привремени стил",
+      "createTmpStyleErrorMessage": "Није могуће креирати привремени стил. ",
+      "updateTmpErrorTitle": "Промена привременог стила",
+      "updateTmpStyleErrorMessage": "Није могуће променити привремени стил. ",
+      "createStyleErrorTitle": "Нови стил",
+      "createStyleErrorMessage": "Стил није могао бити креиран на услузи стила. ",
+      "updateStyleErrorTitle": "Промена стила",
+      "updateStyleErrorMessage": "Стил није могао да се промени на услузи стила. ",
+      "validationErrorTitle": "Проверите грешку",
+      "genericValidationError": "Стил није исправан и не може се применити.",
+      "setDefaultStyle": "Поставите изабрани стил као подразумевани за тренутни слој",
+      "setDefaultStyleSuccessTitle": "Успешна примена задатог стила",
+      "setDefaultStyleSuccessMessage": "Подразумевани стил је успешно постављен",
+      "setDefaultStyleErrorTitle": "Грешка при подешавању подразумеваног стила",
+      "setDefaultStyleErrorMessage": "Није могуће поставити изабрани стил као подразумевани",
+      "switchToTextareaEditor": "Промена кода",
+      "strokeColor": "Боја линије",
+      "strokeWidth": "Ширина линије",
+      "lineStyle": "Стил линије",
+      "lineCap": "Затварање линије",
+      "lineCapButt": "Подразумевано",
+      "lineCapRound": "Роунд",
+      "lineCapSquare": "Правоугаоник",
+      "lineJoin": "Линијска веза",
+      "lineJoinBevel": "Исећи",
+      "lineJoinRound": "Заобљен",
+      "lineJoinMiter": "Оштро",
+      "undoStyle": "Поништи стил",
+      "redoStyle": "Редо стиле",
+      "addMarkRule": "Додајте правило ознаке",
+      "addIconRule": "Додајте правило за иконе",
+      "addLineRule": "Додајте правило линије",
+      "addTextRule": "Додајте правило текста",
+      "addFillRule": "Додајте правило попуњавања",
+      "openFilterBuilder": "Отворите креатор филтера",
+      "openScaleDenominator": "Отворени филтер имениоца размере",
+      "removeRule": "Избриши правило",
+      "shape": "Облик",
+      "fill": "Испуните бојом",
+      "radius": "Радијус",
+      "rotation": "Ротација",
+      "enterLegendLabelPlaceholder": "Унесите ознаку легенде",
+      "simpleStyle": "Обичан стил",
+      "classificationStyle": "Стил класификације",
+      "image": "Слика",
+      "placeholderEnterImageUrl": "Унесите УРЛ слике",
+      "opacity": "Непрозирност",
+      "size": "Величина",
+      "outlineColor": "Боја ивице",
+      "outlineWidth": "Ширина ивице",
+      "label": "Етикета",
+      "fontFamily": "Фонт",
+      "fontColor": "Боја фонта",
+      "fontSize": "Величина фонта",
+      "fontStyle": "Тип слова",
+      "fontWeight": "Тежина фонта",
+      "fontStyleNormal": "Нормално",
+      "fontStyleItalic": "Цурвед",
+      "fontWeightNormal": "Нормално",
+      "fontWeightBold": "Одважан",
+      "haloColor": "Хало боја",
+      "haloWidth": "Хало ширина",
+      "offsetX": "Офсет x",
+      "offsetY": "Офсет y",
+      "selectScale": "Изабрати размеру",
+      "noResultScales": "Димензије не одговарају филтеру",
+      "maxScaleDenominator": "Максимални размер",
+      "minScaleDenominator": "Минимални размер"
+    },
+    "playback": {
+      "settings": {
+        "tooltip": "Подешавања",
+        "title": "Подешавања репродукције",
+        "frameDuration": "Трајање кадра",
+        "range": {
+          "title": "Распон анимације",
+          "zoomTooltip": "Увећајте тренутни опсег анимације",
+          "animationStart": "Почетак анимације",
+          "animationEnd": "Крај анимације",
+          "zoomToCurrentPlayackRange": "Увећајте тренутни опсег репродукције",
+          "setToCurrentViewRange": "Поставите на тренутни опсег приказа",
+          "fitToSelectedLayerRange": "Подешава опсег изабраног слоја"
+        },
+        "step": {
+          "tooltip": "Када је опција 'Налепи у референтни слој' онемогућена, можете да прилагодите кораке анимације",
+          "label": "Кораци анимације",
+          "year": "{number, plural, =0 {Year} =1 {Year} друго {Years}}",
+          "week": "{number, plural, =0 {Week} =1 {Week} остало {Weeks}}",
+          "day": "{number, plural, =0 {Day} =1 {Day} остало {Days}}",
+          "hour": "{number, plural, =0 {Hour} =1 {Hour} друго {Hours}}",
+          "minute": "{number, plural, =0 {Minute} =1 {Minute} остало {Minutes}}",
+          "second": "{number, plural, =0 {Second} =1 {Second} остало {Seconds}}"
+        },
+        "mode": {
+          "title": "Начин",
+          "following": "Пратите анимацију",
+          "followingDescription": "Када је анимација активна, она прати показивач миша"
+        }
+      },
+      "backwardStep": "Корак назад",
+      "forwardStep": "Корак напред",
+      "play": "Покрени",
+      "pause": "Направи паузу",
+      "paused": "Покрени (паузирано)",
+      "stop": "Зауставити"
+    },
+    "timeline": {
+      "settings": {
+        "title": "Подешавања временске линије",
+        "snapToGuideLayer": "Налепите у референтни слој",
+        "snapToGuideLayerTooltip": "Подешава показивач времена на податке изабраног слоја. "
+      },
+      "hide": "Сакриј временску линију",
+      "show": "Прикажи временску линију",
+      "mapSyncOn": "Прикажи сва времена, без филтера на тренутном опсегу карте",
+      "mapSyncOff": "Прикажи само времена доступна на тренутном опсегу карте",
+      "currentTime": "Иди на тренутно време",
+      "rangeStart": "Идите на тренутни временски опсег",
+      "rangeEnd": "Идите на тренутни временски опсег",
+      "hideLayerName": "Сакриј називе слојева",
+      "showLayerName": "Прикажи називе слојева",
+      "enableRange": "Омогући временски опсег",
+      "disableRange": "Онемогући временски опсег",
+      "enablePlayBack": "Омогућите контроле репродукције",
+      "disablePlayBack": "Онемогућите контроле репродукције",
+      "expand": "Проширите временски клизач",
+      "collapse": "Скратите временски клизач",
+      "collapsed": {
+        "title": "Временски оквир је скраћен",
+        "tooltip": "Кликните овде да бисте поново проширили"
+      },
+      "errors": {
+        "multidim_error_title": "Позадински сервис није доступан",
+        "multidim_error_message": "Сервиси потребни за вишедимензионалну подршку нису доступни. "
+      }
+    },
+    "rulesmanager": {
+      "apply": "Применити",
+      "remove": "Уклоните геометрију",
+      "resetconstraints": "Ресетујте ограничења",
+      "constraintsmsg": "Променом дозвола, радног окружења или слоја, детаљи ће бити избрисани. ",
+      "defstyle": "Подразумевани стил",
+      "avstyle": "Доступни стилови",
+      "clearbtn": "Обриши све",
+      "selectbtn": "Изабери све",
+      "placeholders": {
+        "role": "Уноси за претрагу улога",
+        "user": "Уноси за претрагу корисника",
+        "service": "Уноси за тражење услуга",
+        "request": "Уноси за претрагу типа упита",
+        "workspace": "Уноси за тражење радних окружења",
+        "layer": "Уноси за претрагу слојева",
+        "access": "Приступите уносима за претрагу",
+        "ip": "###.###.###.###/##",
+        "priority": "Изаберите приоритет",
+        "filter": "Филтрирај стилове..."
+      },
+      "menutitle": "Управљајте правилима ГеоФенце",
+      "tooltip": {
+        "addT": "Додајте правило",
+        "editT": "Уредите изабрано правило",
+        "addBeT": "Додајте ново правило испред изабраног",
+        "addAfT": "Додајте ново правило после изабраног",
+        "deleteT": "Уклоните изабрано правило",
+        "cacheT": "Обришите кеш меморију",
+        "save": "Сачувајте тренутно правило",
+        "close": "Изађите из прављења правила"
+      },
+      "navItems": {
+        "main": "Опште правило",
+        "style": "Стиле",
+        "filter": "Филтери",
+        "attribute": "Правило атрибута"
+      },
+      "rule": "Правило",
+      "cachetitle": "Обришите кеш меморију",
+      "cachemsg": "Да ли сте сигурни да желите да обришете ГеоФенце кеш меморију?",
+      "deltitle": "Избриши правило",
+      "delmsg": "Да ли сте сигурни да желите да избришете ово правило?",
+      "invalidForm": "Формат је нетачан, проверите вредности поља",
+      "ip": "ИП",
+      "title": "Правила приступа",
+      "role": "Улога",
+      "user": "Корисник",
+      "priority": "Приоритет",
+      "service": "Услуга",
+      "request": "Упит",
+      "workspace": "Радно окружење",
+      "layer": "Слој",
+      "filters": "Филтер",
+      "rules": "Правило",
+      "access": "Приступ",
+      "newModal": "Ново правило",
+      "editModal": "Додајте правило",
+      "newButton": "Креирај",
+      "editButton": "Запис",
+      "close": "Близу",
+      "previous": "претходно",
+      "next": "следећи",
+      "cacheCleaned": "Кеш меморија је успешно очишћена",
+      "errorTitle": "Геофенце",
+      "errorCQL": "Геометрија није тачна!",
+      "errorCleaningCache": "Грешка при чишћењу кеш меморије Геофенце.",
+      "errorLoadingRoles": "Грешка при учитавању улога.",
+      "errorLoadingUsers": "Грешка при учитавању корисника.",
+      "errorLoadingWorkspaces": "Грешка при учитавању десктопа.",
+      "errorLoadingLayers": "Грешка при учитавању слојева.",
+      "errorLoadingRules": "Грешка при учитавању правила.",
+      "errorMovingRules": "Грешка при премештању правила.",
+      "errorDeletingRules": "Грешка при брисању правила.",
+      "errorAddingRule": "Грешка при додавању правила.",
+      "errorUpdatingRule": "Грешка приликом измене правила.",
+      "errorDuplicateRule": "Двоструко правило.",
+      "errorLoading": "Грешка при учитавању",
+      "deleteModal": "Избриши правило",
+      "selectedRulesDelete": "Избрисати изабрана правила?",
+      "deleteButton": "Избриши",
+      "cancelButton": "Одустани од тога",
+      "cqlRead": "Правила читања CQL филтера",
+      "cqlWrite": "Правила писања CQL филтера",
+      "missingconfig": "Администратору смерница недостаје конфигурација. ",
+      "selectworkspace": "Морате да изаберете окружење радне површине да бисте омогућили напредна подешавања"
+    },
+    "geostory": {
+      "loadingSpinner": "Учитавање StoryMap-а",
+      "addTitleSection": "Додати наслов",
+      "addParagraphSection": "Додајте пасус",
+      "addImmersiveSection": "Додајте имерзивни одељак",
+      "addMediaSection": "Додајте одељак за медије",
+      "addWebPageSection": "Додајте веб локацију",
+      "addImmersiveContent": "Додајте импресиван садржај",
+      "addTextContent": "Додајте текстуални садржај",
+      "addMediaContent": "Додајте медијски садржај",
+      "addWebPageContent": "Додајте садржај веб странице",
+      "zoomToContent": "Увећајте садржај",
+      "emptyTitle": "Ова прича је празна",
+      "emptyDescription": "Почните да креирате нову супер геосторију додавањем новог садржаја.",
+      "closeFullscreenMap": "Затворите карту отворену преко целог екрана",
+      "showFullscreenMap": "Прикажи отворену карту преко целог екрана",
+      "contentToolbar": {
+        "contentSize": "Промените величину",
+        "contentHeightAuto": "Прилагодите овај одељак висини садржаја.",
+        "contentHeightView": "Нека овај одељак испуни приказ вертикално.",
+        "smallSizeLabel": "Мало",
+        "mediumSizeLabel": "Средње",
+        "largeSizeLabel": "Велики",
+        "fullSizeLabel": "Много",
+        "contentAlign": "Стацк цонтент",
+        "leftAlignLabel": "Налево",
+        "centerAlignLabel": "Средина",
+        "rightAlignLabel": "Јел тако",
+        "contentTheme": "Промени тему",
+        "brightThemeLabel": "Светлије",
+        "brightTextThemeLabel": "Светлији текст",
+        "darkThemeLabel": "Тамније",
+        "darkTextThemeLabel": "Тамнији текст",
+        "defaultThemeLabel": "Генерал",
+        "customizeThemeLabel": "Прилагоди",
+        "customizeThemeRemoveLabel": "Уклоните прилагођавања",
+        "cover": "Направите позадину за цео контејнер.",
+        "fit": "Цела позадина је видљива унутар контејнера.",
+        "editMedia": "Промените извор медија",
+        "remove": "Уклони",
+        "removeConfirmTitle": "Да ли сте сигурни?",
+        "removeConfirmContent": "Да ли желите да уклоните садржај из приче?",
+        "editMap": "Уредите конфигурацију карте",
+        "resetMap": "Вратите карту на првобитну конфигурацију",
+        "resetMapConfirm": "Ресетујте конфигурацију карте",
+        "resetConfirmContent": "Вратити конфигурацију карте на оригиналну конфигурацију?",
+        "saveChanges": "Сачувајте промене",
+        "closeMapEditing": "Близу",
+        "confirmCloseMapEditing": "Затворите уређивање карте",
+        "pendingChangesDiscardConfirm": "Желите ли да одбаците тренутне промене карте?",
+        "editURL": "Измените URL веб локације",
+        "advancedMapEditor": "Отворите напредни уређивач фасцикли"
+      },
+      "navigation": {
+        "edit": "Уреди причу"
+      },
+      "builder": {
+        "defaults": {
+          "htmlTitlePlaceholder": "Унесите наслов",
+          "htmlPlaceholder": "Унесите текст овде...",
+          "titleTitle": "Наслов селекције",
+          "titleParagraph": "Секција параграфа",
+          "titleImmersive": "Имерзивна секција",
+          "titleImmersiveContent": "Имерзивни садржај",
+          "titleMedia": "Секција за медије",
+          "titleImage": "Слика",
+          "titleText": "Текст",
+          "titleWebPage": "веб страна",
+          "titleWebPageSection": "Секција веб сајта",
+          "titleUnknown": "Непознато"
+        },
+        "delete": "Избришите изабрану селекцију",
+        "preview": "Преглед",
+        "edit": "Уреди причу",
+        "noContents": "Нема доступног садржаја",
+        "collapseAll": "Сакупи све",
+        "expandAll": "Раширите све",
+        "fullscreen": "Прикажи преглед преко целог екрана",
+        "settings": {
+          "tooltip": "Подешавања",
+          "back": "Назад",
+          "backConfirmTitle": "Подешавања су промењена",
+          "backConfirmBody": "Да ли сте сигурни да желите да затворите подешавања без чувања претходних промена?",
+          "backConfirmNo": "Не",
+          "backConfirmYes": "да",
+          "save": "Сачувај подешавања",
+          "headerTitle": "Подешавања приче",
+          "title": "Наслов",
+          "titlePlaceholder": "Унесите наслов",
+          "logo": "Лого",
+          "logoPlaceholder": "Лого не сме бити већи од 48 пк у висину, а препоручује се да буде 96 пк у ширину. ",
+          "autoplay": "Аутоматски старт",
+          "enableAutoplay": "Омогући аутоматско покретање",
+          "autoplayInterval": "Интервал аутоматског покретања (секунде)",
+          "autoplayIntervalPlaceholder": "Омогућите интервал аутоматског покретања",
+          "navbar": "Мени за навигацију",
+          "showNavbar": "Прикажи мени за навигацију",
+          "theme": "Тема"
+        }
+      },
+      "errors": {
+        "loading": {
+          "title": "Грешка",
+          "unknownError": "Непозната грешка",
+          "pleaseLogin": "Применити",
+          "notAccessible": "Ова прича није доступна",
+          "geostoryNotAccessible": "Немате дозволу да приступите овој причи. ",
+          "geostoryDoesNotExist": "Ова прича не постоји"
+        }
+      },
+      "mapEditor": {
+        "configureMapOptions": "Конфигуришите карту",
+        "settings": "Подешавања",
+        "settingsSubTitle": "Управљајте интеракцијом корисника",
+        "toc": "Слојеви",
+        "pan": "Пан интеракција",
+        "zoom": "Интеракција зумирања/умањивања",
+        "topLeft": "Горе лево",
+        "topRight": "Горе десно",
+        "bottomLeft": "Доњи леви",
+        "bottomRight": "Доле десно",
+        "identify": "Идентификујте"
+      },
+      "webPageCreator": {
+        "title": "веб страна",
+        "saveButton": "Запис",
+        "error": "Наведите важећу адресу веб локације.",
+        "url": {
+          "label": "URL"
+        }
+      },
+      "customizeTheme": {
+        "backgroundColorLabel": "Позадина",
+        "textColorLabel": "Текст",
+        "shadowLabel": "Сенка",
+        "useAlternativeTextColor": "Користите алтернативну боју текста",
+        "alternativeTextColorPopover": "<p>Упозорење: изабрана боја текста није читљива на овој позадини.</p><p>Алтернативна боја текста је {цолор}<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>"
+      }
+    },
+    "saveDialog": {
+      "title": "измените својства контролне табле",
+      "name": "Име",
+      "description": "Опис",
+      "createdAt": "Цреатед",
+      "modifiedAt": "Промењено",
+      "namePlaceholder": "Унесите име...",
+      "descriptionPlaceholder": "Унесите опис...",
+      "confirmCloseText": "Промене су у току, да ли сте сигурни да желите да затворите без снимања?",
+      "close": "Близу",
+      "cancel": "Одустани од тога",
+      "saveSuccessTitle": "успешно",
+      "saveSuccessMessage": "Плоча је успешно снимљен"
+    },
+    "mapEditor": {
+      "modalTitle": "Уређивач карте",
+      "confirmExitTitle": "Затворите уређивач карте",
+      "confirmExitContent": "Желите ли да одбаците тренутне промене?"
+    },
+    "mediaEditor": {
+      "modalTitle": "Медији",
+      "images": "Слике",
+      "videos": "Видео",
+      "maps": "Карте",
+      "preview": "Преглед",
+      "apply": "Потврди",
+      "confirmExitTitle": "Затворите уређивач медија",
+      "confirmExitContent": "Желите ли да одбаците тренутне промене?",
+      "mediaPicker": {
+        "services": "Услуге: ",
+        "clean": "Чисти резултати",
+        "noResults": "Нема резултата",
+        "selectService": "Изаберите услугу",
+        "add": "Додати",
+        "back": "Назад",
+        "save": "Запис",
+        "edit": "Уредити",
+        "sourcePlaceholder": "Унесите извор",
+        "source": "Извор",
+        "titlePlaceholder": "Унесите наслов",
+        "title": "Наслов",
+        "altTextPlaceholder": "Унесите алтернативни текст",
+        "altText": "Алтернативни текст",
+        "descriptionPlaceholder": "Унесите опис",
+        "description": "Опис",
+        "creditsPlaceholder": "Унесите кредите",
+        "credits": "Кредити",
+        "mapFilter": "Филтер карте",
+        "videoFilter": "Видео филтер",
+        "imageFilter": "Филтер за слике",
+        "import": "Увезите ресурс у локалну продавницу",
+        "trash": "Уклоните ресурс"
+      },
+      "mediaform": {
+        "confirmExitTitle": "Затворите образац за медије",
+        "confirmExitContent": "Желите ли да одбаците тренутне промене?"
+      },
+      "mapForm": {
+        "thumbnailMessage": "Величина слика треба да буде квадратна, димензија 98 к 98 пиксела, максимално 100 кб.",
+        "confirmMapSaveTitle": "Ажурирање карте",
+        "confirmMapSaveContent": "Ажурирање ове фасцикле ће ресетовати све фасцикле у историји, које су претходно уређиване преко уређивача и које зависе од ове фасцикле, потврдите?"
+      },
+      "mediaList": {
+        "removeResourceTitle": "Да ли сте сигурни?",
+        "confirmRemoveResource": "Да ли желите да уклоните овај ресурс из приче?",
+        "confirmRemoveUsedResource": "Овај ресурс ће такође бити уклоњен из свих секција/садржаја у којима је коришћен, остављајући их празнима. "
+      },
+      "mapList": {
+        "emptyList": "Кликните на дугме плус да бисте креирали карту или изабрали другу услугу карте."
+      }
+    },
+    "backgroundDialog": {
+      "addTitle": "Додајте нову позадину",
+      "editTitle": "Промените тренутну позадину",
+      "title": "Наслов",
+      "titlePlaceholder": "Унесите име које ће се приказати",
+      "add": "Додати",
+      "thumbnailMessage": "Величина слике треба да буде квадратна, величине 98 к 98 пиксела или 128 к 128 пиксела, максимално 500 кб",
+      "additionalParameters": "Додатни параметри",
+      "addAdditionalParameterTooltip": "Додајте параметар",
+      "removeAdditionalParameterTooltip": "Уклони параметар",
+      "parameter": "Параметар",
+      "value": "Вредност",
+      "string": "Низ",
+      "number": "Број",
+      "boolean": "Логичка вредност"
+    },
+    "defaultMapBackgroundsServiceTitle": "Општа позадина",
+    "backgroundSelector": {
+      "addTooltip": "Додајте нову позадину",
+      "confirmDelete": "Да ли сте сигурни да желите да избришете позадину \"{title}\"?"
+    },
+    "stepper": {
+      "back": "Назад",
+      "next": "Следећи"
+    },
+    "newMapDialog": {
+      "title": "Изаберите контекст",
+      "noContexts": "Није пронађен контекст",
+      "filterPlaceholder": "Пронађите контекст..."
+    },
+    "plugins": {
+      "About": {
+        "description": "Алат који приказује прозор Абоут",
+        "title": "О томе"
+      },
+      "AddGroup": {
+        "description": "Дозволите корисницима да креирају нове групе слојева у TOC-у",
+        "title": "Додајте групу слојева"
+      },
+      "Annotations": {
+        "description": "Алат за цртање напомена на карти",
+        "title": "Напомене"
+      },
+      "AutoMapUpdate": {
+        "description": "Дозволите кориснику да отпреми карту",
+        "title": "Аутоматско ажурирање карте"
+      },
+      "BackgroundSelector": {
+        "description": "Дозвола за избор позадине карте",
+        "title": "Избор позадине"
+      },
+      "BurgerMenu": {
+        "description": "Мени у горњем десном углу карте који садржи друге додатке",
+        "title": "Бургер Мену"
+      },
+      "CRSSelector": {
+        "description": "Омогућава промену пројекције карте",
+        "title": "ЦРС селектор"
+      },
+      "Details": {
+        "description": "Омогућава приказ описа картица за карту, ако их има",
+        "title": "Детаљи карте"
+      },
+      "Expander": {
+        "description": "Услужни програм бочног менија који омогућава сакривање неких дугмади",
+        "title": "Ектендер"
+      },
+      "FeatureEditor": {
+        "description": "Претражите атрибуте у табели",
+        "title": "Табела атрибута"
+      },
+      "FilterLayer": {
+        "description": "Омогућава додавање филтера слоју",
+        "title": "Филтерски слој"
+      },
+      "HelpLink": {
+        "description": "Дугме за приступ MapStore документацији",
+        "title": "Линк до документације"
+      },
+      "Home": {
+        "description": "Линк до почетне странице",
+        "title": "Почетна страница"
+      },
+      "Identify": {
+        "description": " Упит за објекте на карти",
+        "title": "Идентификујте"
+      },
+      "Locate": {
+        "description": "Пронађите и пратите позицију корисника на карти",
+        "title": "Алат за локацију"
+      },
+      "Login": {
+        "description": "Алат за пријаву",
+        "title": "Пријавите се"
+      },
+      "MapCatalog": {
+        "description": "Омогућава претраживање, уређивање, брисање и учитавање карта доступних на серверу.",
+        "title": "Каталог карата"
+      },
+      "MapExport": {
+        "description": "Омогућава извоз карте у датотеку",
+        "title": "Извези карту"
+      },
+      "MapImport": {
+        "description": "Омогућава унос података (СХП, КМЛ/КМЗ, ГеоЈСОН, ГПКС) или поново учитава извезене карте.",
+        "title": "Увоз"
+      },
+      "MapLoading": {
+        "description": "Скретница у бочном менију која показује да се карта учитава",
+        "title": "Индикатор учитавања карте"
+      },
+      "Measure": {
+        "description": "Омогућава мерење удаљености и површине на карти",
+        "title": "Меасуремент"
+      },
+      "MetadataExplorer": {
+        "description": "Претражите услуге (ВМС/ВМТС/ЦСВ) да бисте додали слојеве на карту",
+        "title": "Каталог"
+      },
+      "MousePosition": {
+        "description": "Приказује координате тачке на коју показује курсор миша",
+        "title": "Положај миша"
+      },
+      "Print": {
+        "description": "Омогућава штампање тренутне карте са легендом",
+        "title": "Притисните алатку"
+      },
+      "Save": {
+        "description": "Омогућава снимање промена фолдера на серверу",
+        "title": "Запис"
+      },
+      "SaveAs": {
+        "description": "Омогућава креирање или клонирање фасцикле на сервер",
+        "title": "Сними као"
+      },
+      "ScaleBox": {
+        "description": "Индикатор и бирач тренутне размере карте.",
+        "title": "Бирач скале"
+      },
+      "Search": {
+        "description": "Претраживач текста (ГеоЦодер)",
+        "title": "Претраживач"
+      },
+      "Settings": {
+        "description": "Омогућава промену неких подешавања за карту.",
+        "title": "Подешавања"
+      },
+      "Share": {
+        "description": "Омогућава дељење карте на различите начине (линк, КР-код, ембеддинг, друштвене мреже...)",
+        "title": "Алат за дељење"
+      },
+      "StyleEditor": {
+        "description": "Лаиер Аппеаранце Едитор",
+        "title": "Уредник изгледа"
+      },
+      "TOC": {
+        "description": "Пружа листу слојева која се може сортирати",
+        "title": "Листа слојева"
+      },
+      "TOCItemsSettings": {
+        "description": "Омогућава промене у подешавањима слојева",
+        "title": "Подешавање слоја"
+      },
+      "Timeline": {
+        "description": "Омогућава путовање кроз време за податке са временском димензијом",
+        "title": "Временска линија"
+      },
+      "Tutorial": {
+        "description": "Додаје туторијал који објашњава различите функционалности.",
+        "title": "Приручник"
+      },
+      "UserExtensions": {
+        "description": "Омогућава кориснику да омогући/онемогући корисничка проширења",
+        "title": "Корисничке екстензије"
+      },
+      "UserSession": {
+        "title": "Корисничка сесија",
+        "description": "Омогућава снимљену корисничку сесију за сваки контекст"
+      },
+      "Version": {
+        "description": "Приказује верзију ГеоПортала у алату за подешавања карте",
+        "descriptionGeorchestra": "Приказује верзију GeOrchestra у алату за подешавања карте",
+        "title": "Верзија"
+      },
+      "WFSDownload": {
+        "description": "Омогућава преузимање из табеле атрибута",
+        "title": "Преузми податке"
+      },
+      "Widgets": {
+        "description": "Омогућава додавање и приказивање нових widget-а на карти",
+        "title": "Widget-и"
+      },
+      "WidgetsTray": {
+        "description": "Трака за сажимање и проширење widget-а на карти. ",
+        "title": "Widgets Tray"
+      },
+      "ZoomAll": {
+        "description": "Дугме бочног менија за зумирање до опсега карте",
+        "title": "Зумирајте до опсега"
+      },
+      "ZoomIn": {
+        "description": "Дугме које увећава карту",
+        "title": "Увеличати"
+      },
+      "ZoomOut": {
+        "description": "Дугме које умањује карту",
+        "title": "Умањите"
+      }
+    },
+    "contextCreator": {
+      "generalSettings": {
+        "label": "Општа подешавања",
+        "title": "Направите нови контекст карте",
+        "name": "Име",
+        "namePlaceholder": "Унесите назив контекста...",
+        "windowTitle": "Наслов прозора",
+        "windowTitlePlaceholder": "Унесите наслов прозора..."
+      },
+      "configurePlugins": {
+        "label": "Конфигуришите додатке",
+        "pluginsFilterPlaceholder": "Филтрирајте додатке по имену...",
+        "availablePlugins": "Доступни додаци",
+        "enabledPlugins": "Омогућени додаци",
+        "availablePluginsEmpty": "Сви доступни додаци су омогућени",
+        "enabledPluginsEmpty": "Додајте конфигурационе додатке са листе доступних додатака",
+        "searchResultsEmpty": "Није пронађен ниједан додатак који испуњава критеријуме претраге",
+        "cfgParsingError": {
+          "title": "Грешка у конфигурацији",
+          "body": "Рашчлањивање конфигурације JSON-а није успело.\n\"{error}\""
+        },
+        "uploadLabel": "Превуците пакет за проширење или кликните да бисте га погледали и преузели",
+        "uploadTitle": "Инсталирајте додатак",
+        "uploadParseError": "index.json датотека index.json има погрешан формат",
+        "uploadMissingIndexError": "index.json датотека недостаје у zip-у",
+        "uploadMissingPluginError": "У index.json нема дефинисаних додатака",
+        "uploadMissingBundleError": "У отпремљеној датотеци нема отпремљеног javascripta-а",
+        "uploadTooManyBundlesError": "Превише преузетог javascripta-а у zip пакету",
+        "uploadWrongFileFormatError": "Погрешан формат датотеке, очекује се zip датотека",
+        "confirmRemovePlugin": "Да ли сте сигурни да желите да уклоните овај додатак?",
+        "cancelUpload": "Близу",
+        "install": "Инсталирај",
+        "uploadError": "Грешка током инсталације: ",
+        "uploadOk": "Екстензија је успешно инсталирана",
+        "tooltips": {
+          "enableUserPlugin": "Омогућите избор тренутног додатка за корисника",
+          "disableUserPlugin": "Онемогућите избор тренутног додатка за корисника",
+          "activatePlugin": "Омогућите учитавање овог додатка при покретању",
+          "deactivatePlugin": "Онемогућите учитавање овог додатка при покретању",
+          "editConfiguration": "Уредите конфигурацију додатка",
+          "pluginDocumentation": "Отворите документацију о конфигурацији додатка",
+          "uploadPlugin": "Додајте екстензију",
+          "removePlugin": "Уклоните проширење",
+          "mapTemplatesConfig": "Конфигуришите образац"
+        },
+        "saveCfgErrorNotification": {
+          "title": "Синтаксичка грешка у конфигурацији додатка",
+          "message": "Додатак \"{pluginName}\" има грешку у конфигурацији. "
+        }
+      },
+      "configureTemplates": {
+        "title": "Конфигуришите образац",
+        "availableTemplates": "Бесплатни обрасци",
+        "enabledTemplates": "Омогућени обрасци",
+        "templatesFilterPlaceholder": "Филтрирај образац по имену...",
+        "availableTemplatesEmpty": "Сви слободни облици су омогућени",
+        "enabledTemplatesEmpty": "Додајте образац у конфигурацију са листе слободних образаца",
+        "searchResultsEmpty": "Нису пронађени обрасци који испуњавају тражене критеријуме",
+        "fileDrop": {
+          "label": "Форма",
+          "clear": "Отпустите или кликните да бисте изабрали датотеку шаблона карте"
+        },
+        "uploadDialog": {
+          "title": "Отпремите образац за карту",
+          "save": "Отпремити",
+          "jsonParsingError": "Рашчлањивање ЈСОН датотеке није успело: \"{error}\"",
+          "fileReadError": "Неочекивана грешка при читању датотеке"
+        },
+        "tooltips": {
+          "uploadTool": "Отпремите нови образац",
+          "editTemplate": "Измените подешавања обрасца",
+          "deleteTemplate": "Обриши образац"
+        },
+        "deleteError": "Није могуће избрисати образац због грешке",
+        "deleteConfirm": "Да ли сте сигурни да желите да избришете шаблон \"{templateName}\"?"
+      },
+      "configureMap": {
+        "label": "Конфигуришите карту",
+        "reload": "Поново учитај карту",
+        "confirm": "Ово ће избрисати све тренутне промене. "
+      },
+      "saveErrorNotification": {
+        "titleContext": "Снимање контекста није успело",
+        "titleTemplate": "Снимање обрасца није било успешно",
+        "conflict": "Ресурс са овим именом већ постоји",
+        "defaultMessage": "Непозната грешка",
+        "categoryError": "Прављење категорије \"{categoryName}\" није успело."
+      },
+      "loadTemplateErrorNotification": {
+        "forbidden": "Није могућ приступ подацима обрасца, корисник нема потребну дозволу!",
+        "defaultMessage": "Неочекивана грешка!"
+      },
+      "contextNameErrorNotification": {
+        "title": "Лоше име контекста",
+        "unknownError": "Неочекивана грешка!"
+      },
+      "undo": "Да ли сте сигурни да желите да престанете да мењате контекст?"
+    },
+    "contextManager": {
+      "title": "Управљајте контекстима",
+      "gridTitle": "Контексти",
+      "searchPlaceholder": "Претрага...",
+      "newContext": "Нови контекст",
+      "editContextTooltip": "Промените контекст"
+    },
+    "userExtensions": {
+      "title": "Корисничка екстензија",
+      "emptyTitle": "Нема резултата",
+      "emptyDescription": "Унесите филтер који се не подудара ни са једним именом и описом ниједног проширења",
+      "filterPlaceholder": "Филтрирај...",
+      "addExtension": "Додајте екстензију",
+      "removeExtension": "Уклоните проширење"
+    },
+    "mapTemplates": {
+      "title": "Образац карте",
+      "favouritesTitle": "Фаворитес",
+      "allTitle": "Сви",
+      "filterPlaceholder": "Карта образаца филтера...",
+      "transfer": "Замените карту овим шаблоном",
+      "merge": "Додајте овај образац на карту",
+      "favouriteAdd": "Додај у фаворите",
+      "favouriteRemove": "Избаци из омиљених",
+      "emptyTitle": "Нема резултата",
+      "emptyDescription": "Унети филтер не одговара ниједном називу и опису ниједног проширења",
+      "noTemplatesTitle": "Није пронађен ниједан образац",
+      "noTemplatesDescription": "Тренутни контекст не садржи обрасце",
+      "confirmReplaceTitle": "Замените садржај фасцикле",
+      "confirmReplaceMessage": "Кликом на дугме Замени, заменићете све слојеве и конфигурацију карте са изабраним шаблоном.",
+      "confirmReplaceConfirmButton": "Заменити"
+    },
+    "mapCatalog": {
+      "title": "Каталог карата",
+      "filterPlaceholder": "Претражи карте...",
+      "deleteConfirmContent": "Да ли сте сигурни да желите да избришете карту \"{mapName}\"?",
+      "tooltips": {
+        "edit": "Промени подешавања",
+        "delete": "Избриши ресурс",
+        "share": "Подели"
+      },
+      "deletedMap": {
+        "title": "Избрисана карта",
+        "message": "Карта је успешно избрисана"
+      },
+      "updatedMap": {
+        "title": "Снимњена карта",
+        "message": "Карта је успешно сачувана"
+      },
+      "deleteError": "Неочекивана грешка приликом брисања фасцикле",
+      "updateError": "Неочекивана грешка при чувању карте"
+    },
+    "tutorial": {
+      "title": "Приручник",
+      "back": "Назад",
+      "next": "Напред",
+      "close": "Близу",
+      "skip": "Прескочи",
+      "last": "Завршити",
+      "start": "Иди",
+      "checkbox": "Не показуј ову поруку",
+      "error": "Грешка: циљ није пронађен",
+      "intro": {
+        "title": "Добродошли на МС Геопортал",
+        "text": "оквир за креирање апликација за веб мапирање користећи стандардне библиотеке као што су OpenLayers и Leaflet."
+      },
+      "drawerMenu": {
+        "title": "Главни мени",
+        "text": "Овде можете пронаћи информације и алате за управљање слојевима"
+      },
+      "searchBar": {
+        "title": "Трака за претрагу",
+        "text": "Унесите адресу места за претрагу, нпр. 'Телечког'. Такође, можете уписати и координате у следећем формату: 45.257,19.45"
+      },
+      "home": {
+        "title": "Почетна страница",
+        "text": "Кликните да бисте се вратили на почетну страницу"
+      },
+      "searchButton": {
+        "title": "Претрага",
+        "text": "Кликните да бисте отворили траку за претрагу, затим адресу места за претрагу, нпр. 'Телечког'. Такође, можете уписати и координате у следећем формату: 45.257,19.45"
+      },
+      "burgerMenu": {
+        "title": "Избор опција",
+        "text": "овде можете пронаћи подешавања и помоћ"
+      },
+      "zoomInButton": {
+        "title": "Ближе",
+        "text": "Кликните да бисте увећали карту"
+      },
+      "zoomOutButton": {
+        "title": "Измицати",
+        "text": "Кликните да бисте уклонили садржај карте"
+      },
+      "fullscreen": {
+        "title": "Цео екран",
+        "text": "Кликните да видите цео екран"
+      },
+      "identifyButton": {
+        "title": "Информације о објектима",
+        "text": "Кликните да бисте активирали алатку, а затим кликните на карту да бисте добили информације о приказаним слојевима"
+      },
+      "mapType": {
+        "title": "Библиотеке",
+        "text": "Можете бирати између Леафлет и ОпенЛаиерс библиотека да бисте приказали своје карте"
+      },
+      "mapsGrid": {
+        "title": "Карте",
+        "text": "Ево неколико примера за. "
+      },
+      "examples": {
+        "title": "Прилагођена апликација",
+        "text": "Можете користити MS Геопортал компоненте и додатке за прављење сопствених апликација"
+      },
+      "introCesium": {
+        "title": "Упутства за 3Д приказ",
+        "text": "Кликните на дугме Даље да бисте започели водич"
+      },
+      "cesium": {
+        "title": "Интеракција са картом",
+        "pan": "Померање екрана",
+        "zoom": "Зоом виев",
+        "tilt": "Нагиб екрана",
+        "rotate": "Ротирајте приказ",
+        "oneDrag": "Померање једним прстом",
+        "twoPinch": "Држање са два прста",
+        "twoDragSame": "Превуците са два прста, у истом правцу",
+        "twoDragOpposite": "Превлачење са два прста у супротном смеру",
+        "leftClick": "Превуците левим кликом",
+        "rightClick": "Превуците десним кликом или померајте мишем",
+        "middleClick": "Превуците средњи клик или ЦТРЛ леви/десни клик"
+      },
+      "cesiumCompass": {
+        "title": "Компас",
+        "text": "Можете користити компас да кружите глобус. "
+      },
+      "cesiumNavigation": {
+        "title": "Навигација",
+        "text": "Овде можете пронаћи дугмад за увећање и умањивање садржаја карте"
+      },
+      "dashboardIntro": {
+        "title": "Упутство за контролну таблу",
+        "text": "Преглед могућности контролне табле"
+      },
+      "dashboardNav": {
+        "title": "Трака за навигацију",
+        "text": "Овде можете пронаћи избор језика, пријаву, линк на почетну страницу и опције менија"
+      },
+      "dashboardContainer": {
+        "title": "Контролна табла",
+        "text": "<p>Контролна табла у MS Геопорталу пружа скуп података погодно прикупљених за приказ агрегираних података у једном приказу. </p><p> Сви корисници могу да визуелизују објављене контролне табле и да комуницирају са њима, али само корисници са дозволом за уређивање могу да додају, организују, мењају величину или бришу виџете у оквиру контролне табле</p>"
+      },
+      "dashboardAddWidget": {
+        "title": "Додајте виџет",
+        "text": "Да бисте додали виџет на контролну таблу, можете кликнути на дугме"
+      },
+      "dashboardBuilder": {
+        "title": "Направите нови виџет",
+        "text": "Можете одабрати који тип виџета желите и додати га на контролну таблу тако што ћете изабрати једну од ставки на листи"
+      },
+      "dashboardAddChart": {
+        "title": "Графикон",
+        "text": "<p>Ово је виџет који приказује и агрегира податке у кружне графиконе, линијске или тракасте графиконе.</p><p>Кораци:</p><p><ul><li>Изаберите векторски слој</li><li>Изаберите тип графикона</li><li>Прилагодите податке графикона</li><li>Снимите и додајте на плочу</li></ul></p>"
+      },
+      "dashboardAddText": {
+        "title": "Текст",
+        "text": "<p>Додајте свој текст на таблу.</p><p>Кораци:</p><p><ul><li>Уредите текст у уређивачу</li><li>Снимите и додајте на контролну таблу</li></ul></p>"
+      },
+      "dashboardAddTable": {
+        "title": "Сто",
+        "text": "<p>Додајте табелу атрибута која садржи податке изабраног векторског слоја на панел. </p><p>Кораци:</p><p><ul><li>Изаберите векторски слој</li><li>Прилагодите податке табеле</li><li>Снимите и додајте на плочу</li></ul></p>"
+      },
+      "dashboardAddCounter": {
+        "title": "Бројач",
+        "text": "<p>Додајте нови бројач на таблу. </p><p>Кораци:</p><p><ul><li>Изаберите векторски слој</li><li>Подесите податке бројача</li><li>Снимите и додајте на плочу</li></ul></p>"
+      },
+      "dashboardAddMap": {
+        "title": "Карта",
+        "text": "<p>Додајте нову интерактивну карту на таблу. </p><p>Кораци:</p><p><ul><li>Изаберите карту</li><li>Побољшајте карту додавањем нових слојева</li><li>Снимите и додајте на плочу</li></ul></p>"
+      },
+      "geostoryIntro": {
+        "title": "StoryMap водич",
+        "text": "<p>Преглед функционалности StoryMap-а</p><p> Погледајте упутство за употребу <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/exploring-stories/'>овде</a>"
+      },
+      "geostoryViewHeader": {
+        "title": "Заглавље странице",
+        "text": "Овде можете пронаћи избор језика, пријаву на систем, линк до почетне странице и мени са опцијама"
+      },
+      "geostoryViewNavItems": {
+        "title": "Навигација",
+        "text": "Овде се налазе ставке StoryMap које се користе за навигацију. Такође приказују тренутну позицију на StoryMap-у"
+      },
+      "geostoryViewNavTitle": {
+        "title": "Наслов StoryMap-а",
+        "text": "Овде се налази наслов StoryMap"
+      },
+      "geostoryViewNavLogo": {
+        "title": "StoryMap лого",
+        "text": "Ево логотипа StoryMap-а"
+      },
+      "geostoryViewContent": {
+        "title": "Садржај StoryMap",
+        "text": "Ево садржаја StoryMap-а"
+      },
+      "geostoryViewEditButton": {
+        "title": "Модификација StoryMap-а",
+        "text": "Можете да промените садржај и подешавања StoryMap-а једним кликом"
+      },
+      "geostoryEditSidebar": {
+        "title": "Бочни мени",
+        "text": "<p>У бочном менију се налази преглед StoryMap-а, где је свака ставка представљена засебном иконом или смањеним приказом у случају слика или карта. </p><p>Овде можете:</p><ul><li>Промените наслов сваког одељка или садржаја</li><li>Промените редослед превлачењем секција и њиховог садржаја</li><li>Увећајте садржај сандбока помоћу дугмета</li></ul>"
+      },
+      "geostoryEditSidebarToolbar": {
+        "title": "Алати",
+        "text": "<p>С лева на десно:</p><ul><li>Брисање изабраног одељка</li><li>Пребаците се на режим прегледа</li><li>Промена подешавања</li><li>Скупи/прошири сав садржај</li></ul>"
+      },
+      "geostoryEditSidebarSettings": {
+        "title": "StoryMap подешавања",
+        "text": "<p>Овде можете:</p><ul><li>Прикажи/сакриј/измени наслов StoryMap-а</li><li>Уредите тему StoryMap-а</li><li>Прикажи/сакриј/промени StoryMap лого</li><li>Прилагодите траку за навигацију у режиму прегледа</li></ul><p> Додатне информације и упутство за употребу су доступне <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/story-setting/'>овде</a>"
+      },
+      "geostoryEditContainer": {
+        "title": "StoryMap садржај",
+        "text": "<p>Овде можете видети садржај StoryMap-а, мењати га додавањем или брисањем одељака, пасуса итд.</p><p>Свака трака са алаткама вам омогућава да измените садржај StoryMap-а, на пример:</p><img src='data:image/png;base64,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'/><ul><li>мењање извора медијских садржаја</li><li>прилагођавање одељка</li><li>постављање позадине да покрива или не покрива област садржаја</li><li>промена димензија</li><li>постављање простора садржаја у линију са другим (могуће ако не покрива цео простор)</li><li>промените тему</li></ul><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAIwSURBVFhHY/wPBAyDADBB6QEHow5BB1R3yIWX7xiOP30N5REPqJJY/wKN2HLnCYMwBztD+YGzYLF+F1OGV19/MHgqSzMwMzKCxfABqjjk4ccvDJ6r9jLc+/AZKgIBSgK8DNvDnBnk+XmgIrgBVaKGg4WZgYuVmYGfnZWh39mUYbanJYMQJzsDEzAgWJiIs4KgKlCwf/z5G8rDBM++fGOwWbKD4crrDwzOCpIMGYbqDLE6ygzO8hIMd95/ZnBYthOshhAg6JCXX78zmCzYwiA/bS1D3OYjDPsfvmD49vsPw4ZbjxjqDl1gYGdmZljgbc0gxs3BcPr5W4bzr94xXHvzgeHci3dgMZCcODcn1DTcgOioATlo1Y0HDPMu3Wa4ArQofcdxhp5TVxmmnrvBoC7ExyABtOzxp68MVou2MRjN38JwF5heQGIgOWISK0Vp5B8w2q69+cjAycrC4KMsw9BsZ8ggw8sFxiC2jYwYAwszldIIIbD59mOGiWeuM1Rb6zGUmmsDsQ5Dg40BmN0HTLgC7GxQlfgBxQ4BJeb5l+4w3H73CewgN0UpBmtgSIDYn37hTuTogGKHIANQAtacvQGMQWxSAFUdQgkYdQg6GDoOYQOWnLJ83DgLJS5gGWIkLgSsZ9iAtDDR2RUdEF37/vr7j+HG24/gElNfTJDhyONX4LpFioeLAd2NL4ClMKjuAWVjTmCFSAwYbTyjg1GHoINRh6CDUYegg1GHoINB4hAGBgDB977viofL1wAAAABJRU5ErkJggg=='/><p>ова икона вам омогућава да уређујете одговарајући фолдер</p><img src=''/><b>Белешка: </b>Свака алатка има облачић, пређите мишем преко њега за више информација"
+      },
+      "geostoryEditAddbar": {
+        "title": "Додавање новог садржаја",
+        "text": "<p>Овде можете додати различите одељке:</p><p><img src='data:image/png;base64,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'/></p><ul><li>Наслов</li><li>Параграф</li><li>Истакнути одељак</li><li>Медијски садржаји</li><li>веб страна</li></ul>"
+      },
+      "geostoryEditMediaEditor": {
+        "title": "Модификација медијског садржаја",
+        "text": "<p>Овим можете укључити различите типове садржаја у StoryMap-у, као што су: <ul> <li>слике</li><li>видео садржај</li><li>карте</li></ul></p><p> Погледајте упутство за употребу <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/'>овде</a>"
+      }
+    },
+    "userSession": {
+      "saveErrorNotification": {
+        "titleContext": "Снимање корисничке сесије није успело",
+        "categoryError": "Прављење недостајуће категорије \"{categoryName}\" није успело.",
+        "defaultMessage": "Непозната грешка"
+      },
+      "removeErrorNotification": {
+        "titleContext": "Уклањање корисничке сесије није успело",
+        "defaultMessage": "Непозната грешка"
+      },
+      "successRemoved": "Корисничка сесија је уклоњена",
+      "remove": "Ресетујте сесију корисника",
+      "confirmRemove": "Да ли сте сигурни да желите да вратите подразумевану конфигурацију?"
+    }
+  }
+}
