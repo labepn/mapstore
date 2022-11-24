@@ -1899,6 +1899,7 @@
                 "log": "Izveštaj",
                 "date": "Datum"
               }
+			},
             "displayCartesian": {
                 "line": "Sakrij mrežu",
                 "bar": "Sakrij mrežu"
