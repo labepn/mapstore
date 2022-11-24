@@ -218,7 +218,8 @@
         "jet": "{number, plural, =0 {Tамносива} =1 {Tамносива} other {Tамносивe}}",
         "brown": "{number, plural, =0 {Смеђе} =1 {Смеђе} other {Смеђе}}",
         "purple": "{number, plural, =0 {Љубичаста} =1 {Љубичаста} other {Љубичаста}}",
-        "random": "{number, plural, =0 {Насумично} =1 {Насумично} other {Насумичне}}"
+        "random": "{number, plural, =0 {Насумично} =1 {Насумично} other {Насумичне}}",
+		"custom": "По избору"
       }
     },
     "home": {
@@ -715,7 +716,7 @@
       "decimal": "Децималне",
       "aeronautical": "Аеронаутичке",
       "changeSearchInputField": "Промени алат за претрагу",
-      "addressSearch": "Претрага",
+      "addressSearch": "Претрага по називу локације",
       "coordinatesSearch": "Тражи по координатама",
       "searchservicesbutton": "Конфигуришите услуге претраге",
       "configpaneltitle": "Креирајте/уредите услугу претраге",
@@ -1029,8 +1030,8 @@
           "viewport": "Почетни поглед",
           "regions": "Региони",
           "box": "Правоугаоник",
-          "buffer": "Buffer",
-          "circle": "Цирцле",
+          "buffer": "Бафер",
+          "circle": "Кружница",
           "poly": "Полигон",
           "cql": "CQL"
         },
@@ -1053,7 +1054,7 @@
         }
       },
       "changedFilter": "Филтер је промењен",
-      "changedFilterAlert": "Постоје промене које нису сачуване. ",
+      "changedFilterAlert": "Постоје промене које нису сачуване. Желите ли да их сачувате?",
       "resetFilter": "Уклоните филтер",
       "confirmReset": "Потврди",
       "loadingError": "Тренутни филтер је изазвао проблем у приказивању слоја на карти. ",
@@ -1341,9 +1342,9 @@
       "getWMSLink": "Преузмите везу до WMS-а",
       "error": "Дошло је до грешке при учитавању записа из каталога",
       "pageInfo": "Резултати {start}-{end} од {total}",
-      "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} Објекти од {total}} остали {{start}-{end} од {total}}}",
-      "pageInfoInfinite": "{total, plural, =недефинисано {} =0 {Нема резултата} =1 {{total} од {total} подударања} остало {Учитано {loaded} од {total} подударања}}",
-      "noRecordsMatched": "Нема одговарајућих записа",
+      "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} Објекти од {total}} other {{start}-{end} од {total}}}",
+      "pageInfoInfinite": "{total, plural, =undefined {} =0 {Нема резултата} =1 {{total} од {total} одговарајућих} other {Учитано {loaded} од {total} одговарајућих}}",
+      "noRecordsMatched": "Нема подударајућих записа",
       "wmsGetCapLink": "WMS",
       "wfsGetCapLink": "WFS",
       "share": "Дели",
@@ -1736,7 +1737,30 @@
           "connectToAMap": "Повежите се са другим widget-ом",
           "connectToTheMap": "Повежите се са другим widget-ом",
           "selectMapToConnect": "Изаберите widget за повезивање",
-          "clearConnection": "Обриши везу"
+          "clearConnection": "Обриши везу",
+		  "classAttributes": {
+                        "classColor": "Боја класе",
+                        "classLabel": "Ознака класе",
+                        "classValue": "Вредност класе",
+                        "color": "Боја",
+                        "confirmModalMessage": "Затворили и одбацили некласиковане вредности?",
+                        "classificationAttribute": "Атрибут класификације",
+                        "customLabels": "Прилагођене ознаке",
+                        "barChartCustomLabelsExample": "<div><p><code>${legendValue}</code> се може користити као обележје за Y атрибут.</p><p></p><h5>На пример</h5><dl><dt><b>Y атрибут:</b></dt><dd>НАСЕЉЕНОСТ</dd><dt><b>ознака класе:</b></dt><dd><code>${legendValue}</code> Калифорнија</dd><dt><b>Резултат:</b></dt><dd>НАСЕЉЕНОСТ Калифорнија</dd></dl></div>",
+                        "pieChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> се може користити као обележје за групу по атрибуту.</p><p>ставке у легенди са истим садржајем текста биће груписани на графикону.</p><h5>На пример</h5><dl><dt><b>Атрибут:</b></dt><dd>НАСЕЉЕНОСТ</dd><dt><b>Ознака класе:</b></dt><dd><code>${groupByValue}</code> Калифорнија</dd><dt><b>Резултат:</b></dt><dd>НАСЕЉЕНОСТ Калифорнија</dd></dl></div>",
+                        "pieRangeDefaultChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> се може користити као обележје за групу по атрибуту.</p><p>ставке у легенди са истим садржајем текста биће груписани на графикону.</p><h5>На пример</h5><dl><dt><b>Атрибут:</b></dt><dd>НАСЕЉЕНОСТ</dd><dt><b>Ознака класе:</b></dt><dd><code>${groupByValue}</code> Калифорнија</dd><dt><b>Резултат:</b></dt><dd>НАСЕЉЕНОСТ Калифорнија</dd></dl></div>",
+                        "pieRangeClassChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> се може користити као обележје за групу по атрибуту.</p><p><code>${legendValue}</code> се може користити као обележје за Y атрибут.</p><p><code>${minValue}</code> се може користити као обележје за класу Минимална вредност.</p><p><code>${maxValue}</code> се може користити као обележје за класу Максимална вредност.</p><p>ставке у легенди са истим садржајем текста биће груписане у графикону.</p><h5>На пример</h5><dl><dt><b>Груписано по атрибуту:</b></dt><dd>НАСЕЉЕНОСТ</dd><dt><b>Y атрибут:</b></dt><dd>DUŽINA_KM</dd><dt><b>Минимална вредност:</b></dt><dd>0</dd><dt><b>Максимална вредност:</b></dt><dd>10000</dd><dt><b>Ознака класе:</b></dt><dd><code>${groupByValue}</code> Калифорнија<code>${legendValue}</code>: <code>${minValue}</code> - <code>${maxValue}</code></dd><dt><b>Резултат:</b></dt><dd>НАСЕЉЕНОСТ Калифорнија DUŽINA_KM: 0 - 10000</dd></dl></div>",
+                        "barRangeDefaultChartCustomLabelsExample": "<div><p><code>${legendValue}</code> се може користити као обележје за Y атрибут.</p><p></p><h5>На пример</h5><dl><dt><b>Y атрибут:</b></dt><dd>НАСЕЉЕНОСТ</dd><dt><b>Ознака класе:</b></dt><dd><code>${legendValue}</code> Калифорнија</dd><dt><b>Резултат:</b></dt><dd>НАСЕЉЕНОСТ Калифорнија</dd></dl></div>",
+                        "barRangeClassChartCustomLabelsExample": "<div><p><code>${minValue}</code> се може користити као обележје за класу Минимална вредност.</p><p><code>${maxValue}</code> се може користити као обележје за класу Максимална вредност.</p><p><code>${legendValue}</code> се може користити као обележје за Y атрибут.</p><p>ставке у легенди са истим садржајем текста биће груписане у графикону.</p><h5>На пример</h5><dl><dt><b>Атрибут:</b></dt><dd>НАСЕЉЕНОСТ</dd><dt><b>Ознака класе:</b></dt><dd><code>${groupByValue}</code> Калифорнија</dd><dt><b>Резултат:</b></dt><dd>НАСЕЉЕНОСТ Калифорнија</dd></dl></div>",
+                        "defaultClassLabel": "Подразумевана ознака класе",
+                        "defaultColorRamp": "Подразумевана палета боја",
+                        "defaultColor": "Подразумевана боја",
+                        "defaultCustomLabel": "Подразумевана ознака",
+                        "editCustomColors": "Изменити подразумеване боје",
+                        "maxValue": "Максимална вредност",
+                        "minValue": "Минимална вредност",
+                        "title": "Подразумевана подешавања боја"
+                    }
         },
         "errors": {
           "noAttributesTitle": "Нема атрибута за приказ",
@@ -1840,6 +1864,36 @@
         "bar": "Прикажи легенду",
         "gauge": "Прикажи ознаке"
       },
+	  "advanced": {
+              "displayCartesian": "Сакрити Грид",
+              "xAxis": "X оса",
+              "xAxisAngle": "Ротација ознаке",
+              "hideLabels": "Сактрити ознаке",
+              "format": "Формат",
+              "prefix": "Префикс",
+              "suffix": "Суфикс",
+              "examples": "Примери",
+              "formatExamples": "<div><ul><li><code>.0%</code>: заокружен проценат, '12%'</li><li><code>.2s</code>:SI-префикс са две значајне цифре, '42M'</li><li><code>,.2r</code>: груписане хиљаде са две значајне цифре '4,200'</li></ul><em>Више информација о форматирању синтаксе <a target=\"_blank\" href=\"https://d3-wiki.readthedocs.io/zh_CN/master/Formatting/\">овде</a>.</em></div>",
+              "formula": "Формула",
+              "formulaExamples": "<div>Трансформиши вредност помоћу формуле. Користити променљиву <code>value</code> у изразу:<h5>Примери</h5><ul><li><code>value + 2</code></li><li><code>value / 100</code></li></ul><em>Више информација о синтакси <a target=\"_blank\" href=\"https://github.com/m93a/filtrex#expressions\">овде</a>.</em></div>",
+              "xAxisType": "Тип",
+              "forceTicks": "Никада не прескачи ознаке",
+              "maxXAxisLabels": "Ознаке не могу бити више од {max}",
+              "yAxis":  "Y оса",
+              "yAxisType": "Тип",
+              "yAxisLabel": "Легенда ознака",
+              "title": "Напредна подешавања",
+              "legend": "Легенда",
+              "barChartType": "Тип тракастог графикона",
+              "groupedBarChart": "Груписано",
+              "stackedBarChart": "Сложено",
+              "axisTypes": {
+                "auto": "Аутоматски",
+                "linear": "Линеарно",
+                "category": "Категорија",
+                "log": "Извештај",
+                "date": "Датум"
+              }
       "displayCartesian": {
         "line": "Сакриј мрежу",
         "bar": "Сакриј мрежу"

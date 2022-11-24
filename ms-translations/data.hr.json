@@ -218,7 +218,8 @@
                 "jet": "{number, plural, =0 {Tamnosivo} =1 {Tamnosivo} other {Tamnosive}}",
                 "brown": "{number, plural, =0 {Smeđe} =1 {Smeđe} other {Smeđe}}",
                 "purple": "{number, plural, =0 {Ljubičasto} =1 {Ljubičasto} other {Ljubičaste}}",
-                "random": "{number, plural, =0 {Nasumično} =1 {Nasumično} other {Nasumične}}"
+                "random": "{number, plural, =0 {Nasumično} =1 {Nasumično} other {Nasumične}}",
+				"custom": "Po izboru"
             }
         },
         "home":{
@@ -717,7 +718,7 @@
             "decimal": "Decimalne",
             "aeronautical": "Aeronautičke",
             "changeSearchInputField": "Promeni alat za pretragu",
-            "addressSearch": "Pretraga",
+            "addressSearch": "Pretraga po nazivu lokacije",
             "coordinatesSearch": "Pretraživanje po koordinatama",
             "searchservicesbutton": "Konfiguriši servise pretraživanja",
             "configpaneltitle": "Kreiraj/izmeni servis pretraživanja",
@@ -1741,7 +1742,30 @@
                     "connectToAMap": "Povežite se s drugim widgetom",
                     "connectToTheMap": "Spojite se na drugi widget",
                     "selectMapToConnect": "Odaberite widget za povezivanje",
-                    "clearConnection": "Izbriši vezu"
+                    "clearConnection": "Izbriši vezu",
+					"classAttributes": {
+                        "classColor": "Boja klase",
+                        "classLabel": "Oznaka klase",
+                        "classValue": "Vrednost klase",
+                        "color": "Boja",
+                        "confirmModalMessage": "Zatvoriti i odbaciti neklasikovane vrednosti?",
+                        "classificationAttribute": "Atribut klasifikacije",
+                        "customLabels": "Prilagođene oznake",
+                        "barChartCustomLabelsExample": "<div><p><code>${legendValue}</code> se može koristiti kao obeležje za Y atribut.</p><p></p><h5>Na primer</h5><dl><dt><b>Y Atribut:</b></dt><dd>NASELJENOST</dd><dt><b>Oznaka klase:</b></dt><dd><code>${legendValue}</code> Kalifornija</dd><dt><b>Rezultat:</b></dt><dd>NASELJENOST Kalifornija</dd></dl></div>",
+                        "pieChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> se može koristiti kao obeležje za grupu po atributu.</p><p>stavke u legendi sa istim sadržajem teksta biće grupisani na grafikonu.</p><h5>Na primer</h5><dl><dt><b>Atribut:</b></dt><dd>NASELJENOST</dd><dt><b>Oznaka klase:</b></dt><dd><code>${groupByValue}</code> Kalifornija</dd><dt><b>Rezultat:</b></dt><dd>NASELJENOST Kalifornija</dd></dl></div>",
+                        "pieRangeDefaultChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> se može koristiti kao obeležje za grupu po atributu.</p><p>stavke u legendi sa istim sadržajem teksta biće grupisani na grafikonu.</p><h5>Na primer</h5><dl><dt><b>Atribut:</b></dt><dd>NASELJENOST</dd><dt><b>Oznaka klase:</b></dt><dd><code>${groupByValue}</code> Kalifornija</dd><dt><b>Rezultat:</b></dt><dd>NASELJENOST Kalifornija</dd></dl></div>",
+                        "pieRangeClassChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> se može koristiti kao obeležje za grupu po atributu.</p><p><code>${legendValue}</code> se može koristiti kao obeležje za Y atribut.</p><p><code>${minValue}</code> se može koristiti kao obeležje za klasu Minimalna vrednost.</p><p><code>${maxValue}</code> se može koristiti kao obeležje za klasu Maksimalna vrednost.</p><p>stavke u legendi sa istim sadržajem teksta biće grupisane u grafikonu.</p><h5>Na primer</h5><dl><dt><b>Grupisano po atributu:</b></dt><dd>NASELJENOST</dd><dt><b>Y atribut:</b></dt><dd>DUŽINA_KM</dd><dt><b>Minimalna vrednost:</b></dt><dd>0</dd><dt><b>Maksimalna vrednost:</b></dt><dd>10000</dd><dt><b>Oznaka klase:</b></dt><dd><code>${groupByValue}</code> Kalifornija<code>${legendValue}</code>: <code>${minValue}</code> - <code>${maxValue}</code></dd><dt><b>Result:</b></dt><dd>NASELJENOST Kalifornija DUŽINA_KM: 0 - 10000</dd></dl></div>",
+                        "barRangeDefaultChartCustomLabelsExample": "<div><p><code>${legendValue}</code> se može koristiti kao obeležje za Y atribut.</p><p></p><h5>Na primer</h5><dl><dt><b>Y atribut:</b></dt><dd>NASELJENOST</dd><dt><b>Oznaka klase:</b></dt><dd><code>${legendValue}</code> Kalifornija</dd><dt><b>Rezultat:</b></dt><dd>NASELJENOST Kalifornija</dd></dl></div>",
+                        "barRangeClassChartCustomLabelsExample": "<div><p><code>${minValue}</code> se može koristiti kao obeležje za klasu Minimalna vrednost.</p><p><code>${maxValue}</code> se može koristiti kao obeležje za klasu Maksimalna vrednost.</p><p><code>${legendValue}</code> se može koristiti kao obeležje za Y atribut.</p><p>stavke u legendi sa istim sadržajem teksta biće grupisane u grafikonu.</p><h5>Na primer</h5><dl><dt><b>Atribut:</b></dt><dd>NASELJENOST</dd><dt><b>Oznaka klase:</b></dt><dd><code>${groupByValue}</code> Kalifornija</dd><dt><b>Rezultat:</b></dt><dd>NASELJENOST Kalifornija</dd></dl></div>",
+                        "defaultClassLabel": "Podrazumevana oznaka klase",
+                        "defaultColorRamp": "Podrazumevana paleta boja",
+                        "defaultColor": "Podrazumevana boja",
+                        "defaultCustomLabel": "Podrazumevana oznaka",
+                        "editCustomColors": "Izmeniti podrazumevane boje",
+                        "maxValue": "Maksimalna vrednost",
+                        "minValue": "Minimalna vrednost",
+                        "title": "Podrazumevana podešavanja boja"
+                    }
                 },
                 "errors": {
                     "noAttributesTitle": "Nema atributa za prikaz",
@@ -1845,6 +1869,36 @@
                 "bar": "Prikaži legendu",
                 "gauge": "Prikaži oznake"
             },
+			"advanced": {
+              "displayCartesian": "Sakriti Grid",
+              "xAxis": "X osa",
+              "xAxisAngle": "Rotacija oznake",
+              "hideLabels": "Sakriti oznake",
+              "format": "Format",
+              "prefix": "Prefiks",
+              "suffix": "Sufiks",
+              "examples": "Primeri",
+              "formatExamples": "<div><ul><li><code>.0%</code>: zaokružen procenat, '12%'</li><li><code>.2s</code>:SI-prefiks sa dve značajne cifre, '42M'</li><li><code>,.2r</code>: grupisane hiljade sa dve značajne cifre '4,200'</li></ul><em>Više informacija o formatiranju sintakse <a target=\"_blank\" href=\"https://d3-wiki.readthedocs.io/zh_CN/master/Formatting/\">ovde</a>.</em></div>",
+              "formula": "Formula",
+              "formulaExamples": "<div>Transformiši vrednost pomoću formule. Koristi promenljivu <code>value</code> u izrazu:<h5>Primeri</h5><ul><li><code>value + 2</code></li><li><code>value / 100</code></li></ul><em>Više informacija o sintaksi <a target=\"_blank\" href=\"https://github.com/m93a/filtrex#expressions\">ovde</a>.</em></div>",
+              "xAxisType": "Tip",
+              "forceTicks": "Nikada ne preskači oznake",
+              "maxXAxisLabels": "Oznake ne mogu biti više od {max}",
+              "yAxis":  "Y osa",
+              "yAxisType": "Tip",
+              "yAxisLabel": "Legenda oznaka",
+              "title": "Napredna podešavanja",
+              "legend": "Legenda",
+              "barChartType": "Tip trakastog grafikona",
+              "groupedBarChart": "Grupisano",
+              "stackedBarChart": "Složeno",
+              "axisTypes": {
+                "auto": "Automatski",
+                "linear": "Linearno",
+                "category": "Kategorija",
+                "log": "Izveštaj",
+                "date": "Datum"
+              }
             "displayCartesian": {
                 "line": "Sakrij mrežu",
                 "bar": "Sakrij mrežu"
