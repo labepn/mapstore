@@ -138,7 +138,17 @@
               "enableLocalizedLayerStyles": {
                   "label": "Omogući lokalizovane stilove",
                   "tooltip": "Upozorenje: Ovaj parametar zahteva posebnu konfiguraciju GeoServera"
-              }
+              },
+			  "format": {
+                "title": "Format",
+                "refresh": "Preuzmi podržani format",
+                "loading": "Učitavanje...",
+                "noOption": "Nema opcija",
+                "error": {
+                    "title": "Greška",
+                    "message": "Neuspešno preuzimanje podržanog formata"
+                }
+            }
         },
         "longitude": "Geografska dužina",
         "latitude": "Geografska širina",
@@ -627,7 +637,7 @@
 			"outputFormat": "Format",
 			"graticule": "dodati grid sa oznakama"
         },
-        "backgroundSwither":{
+        "backgroundSwitcher":{
             "tooltip": "Odaberi podlogu"
         },
         "info":{
@@ -2313,7 +2323,7 @@
                 "smallSizeLabel": "Malo",
                 "mediumSizeLabel": "Srednje",
                 "largeSizeLabel": "Veliko",
-                "fullSizeLabel": "Puno",
+                "fullSizeLabel": "Puna veličina",
                 "contentAlign": "Složi sadržaj",
                 "leftAlignLabel": "Levo",
                 "centerAlignLabel": "Sredina",
@@ -2380,7 +2390,7 @@
 					"overlay": "Prekrivanje",
 					"storyTheme" : "Tema priče",
 					"storyHeader" : "Naslov priče",
-					"fontSize": "Величина фонта",
+					"fontSize": "Veličina fonta",
                     "headerTitle" : "Podešavanja story-ja",
                     "title" : "Naslov",
                     "titlePlaceholder" : "Unesi naslov",

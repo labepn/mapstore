@@ -138,7 +138,17 @@
       "enableLocalizedLayerStyles": {
         "label": "Омогућите локализоване стилове",
         "tooltip": "Упозорење: Овај параметар захтева посебну конфигурацију ГеоСервера"
-      }
+      },
+	  "format": {
+                "title": "Формат",
+                "refresh": "Преузми подржани формат",
+                "loading": "Учитавање...",
+                "noOption": "Нема опција",
+                "error": {
+                    "title": "Грешка",
+                    "message": "Неуспешно преузимање подржаног формата"
+                }
+            }
     },
     "longitude": "Географска дужина",
     "latitude": "Ширина",
@@ -599,7 +609,7 @@
       "layout": "Распоред",
       "sheetsize": "Величина листа:",
       "legendoptions": "Постављање легенде",
-      "submit": "Принт",
+      "submit": "Штампа",
       "title": "Наслов",
       "titleplaceholder": "Унесите наслов...",
       "description": "Опис",
@@ -620,13 +630,13 @@
         "forceLabels": "Присилите ознаке:",
         "antiAliasing": "Уклоните оштре ивице слова:",
         "iconsSize": "Величина фонта:",
-        "dpi": "Дпи:"
+        "dpi": " DPI:"
       },
       "layoutWarning": "Неважећи распоред",
       "outputFormat": "Формат",
-      "graticule": "додајте мрежу са ознакама"
+      "graticule": "Додајте мрежу са ознакама"
     },
-    "backgroundSwither": {
+    "backgroundSwitcher": {
       "tooltip": "Изаберите позадину"
     },
     "info": {
@@ -1538,12 +1548,12 @@
       "selectall": "Изабери све",
       "deselectall": "Обриши избор",
       "backtosearch": "Назад на претрагу",
-      "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} резултати {total}} остало {{start}-{end} од {total}}}",
-      "resultInfoVirtual": "{total, plural, =0 {Нема резултата} =1 {{total} од {total}} осталих {{total} резултата}}",
-      "pageInfo": "{totalPages, plural, =0 {Нема страница} =1 {Страница {totalPages} од {totalPages}} остало {Страница {page} од {totalPages}}}",
+      "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} резултати {total}} other {{start}-{end} од {total}}}",
+      "resultInfoVirtual": "{total, plural, =0 {Нема резултата} =1 {{total} од {total}} other {{total} резултата}}",
+      "pageInfo": "{totalPages, plural, =0 {Нема страница} =1 {Страница {totalPages} од {totalPages}} other {Страница {page} од {totalPages}}}",
       "pagination": {
         "page": "Страна",
-        "of": "оф",
+        "of": "од",
         "to": "до",
         "more": "више"
       },
@@ -2148,12 +2158,12 @@
         "step": {
           "tooltip": "Када је опција 'Налепи у референтни слој' онемогућена, можете да прилагодите кораке анимације",
           "label": "Кораци анимације",
-          "year": "{number, plural, =0 {Year} =1 {Year} друго {Years}}",
-          "week": "{number, plural, =0 {Week} =1 {Week} остало {Weeks}}",
-          "day": "{number, plural, =0 {Day} =1 {Day} остало {Days}}",
-          "hour": "{number, plural, =0 {Hour} =1 {Hour} друго {Hours}}",
-          "minute": "{number, plural, =0 {Minute} =1 {Minute} остало {Minutes}}",
-          "second": "{number, plural, =0 {Second} =1 {Second} остало {Seconds}}"
+          "year": "{number, plural, =0 {Year} =1 {Year} other {Years}}",
+          "week": "{number, plural, =0 {Week} =1 {Week} other {Weeks}}",
+          "day": "{number, plural, =0 {Day} =1 {Day} other {Days}}",
+          "hour": "{number, plural, =0 {Hour} =1 {Hour} other {Hours}}",
+          "minute": "{number, plural, =0 {Minute} =1 {Minute} other {Minutes}}",
+          "second": "{number, plural, =0 {Second} =1 {Second} other {Seconds}}"
         },
         "mode": {
           "title": "Начин",
@@ -2307,9 +2317,9 @@
         "contentHeightView": "Нека овај одељак испуни приказ вертикално.",
         "smallSizeLabel": "Мало",
         "mediumSizeLabel": "Средње",
-        "largeSizeLabel": "Велики",
-        "fullSizeLabel": "Много",
-        "contentAlign": "Стацк цонтент",
+        "largeSizeLabel": "Велико",
+        "fullSizeLabel": "Пуна величина",
+        "contentAlign": "Поравнање садржаја",
         "leftAlignLabel": "Налево",
         "centerAlignLabel": "Средина",
         "rightAlignLabel": "Десно",
@@ -2369,7 +2379,7 @@
           "backConfirmTitle": "Подешавања су промењена",
           "backConfirmBody": "Да ли сте сигурни да желите да затворите подешавања без чувања претходних промена?",
           "backConfirmNo": "Не",
-          "backConfirmYes": "да",
+          "backConfirmYes": "Да",
           "save": "Сачувај подешавања",
 		  "fontFamily": "Фонт",
 		  "overlay": "Прекривање",
@@ -2380,7 +2390,7 @@
           "title": "Наслов",
           "titlePlaceholder": "Унесите наслов",
           "logo": "Лого",
-          "logoPlaceholder": "Лого не сме бити већи од 48px у висину, а препоручује се да буде 96px у ширину. ",
+          "logoPlaceholder": "Лого не сме бити већи од 48 px у висину, а препоручује се да буде 96 px у ширину. максимално 500 kb",
           "autoplay": "Аутоматски старт",
           "enableAutoplay": "Омогући аутоматско покретање",
           "autoplayInterval": "Интервал аутоматског покретања (секунде)",
