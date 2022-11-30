@@ -212,7 +212,7 @@
         "global": {
             "colors": {
                 "red": "{number, plural, =0 {Crveno} =1 {Crveno} other {Crvene}}",
-                "blue": "{number, plural, =0 {Plavo} =1 {Plavo} other {Plave}}",
+                "blue": "{number, plural, =0 {Plavo} =1 {Plavo} other {Plavo}}",
                 "green": "{number, plural, =0 {Zeleno} =1 {Zeleno} other {Zelene}}",
                 "gray": "{number, plural, =0 {Sivo} =1 {Sivo} other {Sive}}",
                 "jet": "{number, plural, =0 {Tamnosivo} =1 {Tamnosivo} other {Tamnosive}}",
@@ -440,8 +440,7 @@
                     "notFound": "Karta nije pronađena",
                     "notAccessible": "Karta nije dostupna",
                     "unknownError": "<p><small>Jedan od sledećih razloga može biti uzrok:</small> <ul><li>nemate dozvole za pristup</li> <li>pokušavate pristupiti karti koja ne postoji</li> <li>karta je uklonjena</li> <li>projekcija karte nije prilagođena</li></ul><p>",
-                    "projectionError": "Projekcija {projection} mape nije konfigurisana",
-                    "title" : "Karta ne može biti prikazana"
+                    "projectionError": "Projekcija {projection} mape nije konfigurisana"
                 }
             },
             "cesiumTerrainSelector" : {
@@ -585,10 +584,10 @@
             },
             "compareTool": "Uporedi",
             "configureTool": "Konfiguriši",
-            "spyconfiguration": "Podešavanja durbina",
+            "spyconfiguration": "Podešavanja lupe",
             "swipeconfiguration": "Podešavanje prevlačenja",
             "swipe": "Prevlačenje",
-            "spyGlass": "Durbin",
+            "spyGlass": "Lupa",
             "direction": "Smer prevlačenja",
             "radius": "Prečnik",            
             "notVisibleZoomIn": "Sloj nije vidljiv jer je van granica rezolucije. Približite kako bi se prikazao",
@@ -1318,7 +1317,7 @@
             "title": "Izvezi kartu",
             "exportPanel": {
                 "title": "<p><h4>Izaberite željeni format</h4></p>",
-                "exportButtonLabel": "Export"
+                "exportButtonLabel": "Izvezi"
             },
             "formats": {
                 "mapstore2": {
@@ -1622,10 +1621,10 @@
             }
         },
         "layerdownload": {
-            "title": "Export podataka",
+            "title": "Izvoz podataka",
             "format": "Format datoteke",
             "srs":  "Prostorni referentni sistem",
-            "export": "Export",
+            "export": "Izvoz",
             "downloadonlycurrentpage": "Preuzmi samo trenutnu stranu",
             "cropDataSet": "Kropuj skup podataka na vidljivi prikaz",
             "downloadFilteredDataSet": "Preuzmi filrirani skup podataka",
@@ -1635,16 +1634,16 @@
             "tileHeight": "Visina tajla",
             "quality": "Kvalitet",
             "error": {
-                "title": "Greška prilikom export-a",
-                "invalidOutputFormat": "Format export-a nije podržan",
+                "title": "Greška prilikom izvoza",
+                "invalidOutputFormat": "Format izvoza nije podržan",
                 "downloadEstimatorTitle": "Greška u prikazu toka preuzimanja",
                 "downloadEstimatorFailed": "Neuspešan prikaz toka preuzimanja, eksportovana datoteka je veća od ograničenog na serveru. Pokušajte promenom opcija za preuzimanje, ili filtrirajte sloj i pokušajte ponovo."
             },
             "exportResultsMessages": {
-                "newExport": "Datoteka će biti dostupna ovde kada se export završi",
-                "exportFailure": "Neuspešan export sloja \"{layerTitle}\" ! Otvorite prozor rezultata export-a za više informacija.",
-                "exportSuccess": "Export sloja je \"{layerTitle}\" završen.",
-                "invalidHref": "Odgovor od servera nije sadržao validnu url adresu za export-ovane datoteke!"
+                "newExport": "Datoteka će biti dostupna ovde kada se izvoz završi",
+                "exportFailure": "Neuspešan izvoz sloja \"{layerTitle}\" ! Otvorite prozor rezultata izvoza za više informacija.",
+                "exportSuccess": "Izvoz sloja je \"{layerTitle}\" završen.",
+                "invalidHref": "Odgovor od servera nije sadržao validnu url adresu za izvezene datoteke!"
             },
             "wpsExecuteError": {
                 "processFailed": "Neuspešno preuzimanje! Server je vratio sledeći opis greške: \"{exceptionReport}\"",
@@ -1967,15 +1966,13 @@
                     "notAccessible": "Nemate prava pristupa datom resursu. Molim Vas kontaktirajte vlasnika resursa",
                     "pleaseLogin": "Neki resursi nisu javno dostupni. Pokušajte da se prijavite",
                     "unknownError": "Prisutna je greška prilikom učitavanja mape ili konteksta. Kontaktirajte administratora.",
-                    "notFound": "Resurs nije pronađen",
-	                "notAccessible": "Resurs nije dostupan"
+                    "notFound": "Resurs nije pronađen"
                 },
                 "context": {
                     "notAccessible": "Nemate prava pristupa datom kontekstu. Molim Vas kontaktirajte vlasnika resursa",
                     "pleaseLogin": "Kontekst nije javno dostpan. Pokušajte da se prijavite",
                     "unknownError": "Prisutna je greška prilikom učitavanja konteksta. Kontaktirajte administratora.",
-                    "notFound": "Kontekst kojem pokušavate da pristupite ne postoji.",
-	                "notAccessible": "Nemate pravo pristupa ovom kontekstu. Kontaktirajte administratora kako bi Vam dodelio pristup kontekstu."
+                    "notFound": "Kontekst kojem pokušavate da pristupite ne postoji."
                 },
                 "template": {
                     "title": "Greška prilikom učitavanja obrasca",
@@ -1988,8 +1985,7 @@
                     "notAccessible": "Nemate prava pristupa datoj mapi. Molim Vas kontaktirajte vlasnika resursa",
                     "pleaseLogin": "Mapa nije javno dostupna. Pokušajte da se prijavite",
                     "unknownError": "Prisutna je greška prilikom učitavanja mape. Kontaktirajte administratora.",
-                    "notFound": "Mapa kojoj pokušavate da pristupite ne postoji.",
-	                "notAccessible": "Nemate pravo pristupa ovoj mapi. Kontaktirajte administratora kako bi Vam dodelio pristup mapi."
+                    "notFound": "Mapa kojoj pokušavate da pristupite ne postoji."
                 },
                 "plugins": {
                   "upload": "Greška prilikom otpremanja plugin-a.",
@@ -2109,8 +2105,6 @@
 			"removeRule": "Obrisati pravilo",
 			"shape": "Oblik",
 			"fill": "Popuniti bojom",
-            "strokeColor": "Boja linije",
-            "strokeWidth": "Širina linije",
             "radius": "Radijus",
             "rotation": "Rotacija",
 			"enterLegendLabelPlaceholder": "Uneti oznaku legende",
@@ -2382,6 +2376,11 @@
                     "backConfirmNo": "Ne",
                     "backConfirmYes": "Da",
                     "save": "Snimi podešavanja",
+					"fontFamily": "Font",
+					"overlay": "Prekrivanje",
+					"storyTheme" : "Tema priče",
+					"storyHeader" : "Naslov priče",
+					"fontSize": "Величина фонта",
                     "headerTitle" : "Podešavanja story-ja",
                     "title" : "Naslov",
                     "titlePlaceholder" : "Unesi naslov",

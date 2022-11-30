@@ -29,7 +29,7 @@
     "expand": "Проширити",
     "Forbidden": "Забрањено",
     "version": {
-      "label": "Версион"
+      "label": "Верзија"
     },
     "errorPage": {
       "title": "Дошло је до грешке.",
@@ -59,8 +59,8 @@
       "description": "Опис",
       "display": "Приказ",
       "style": "Стиле",
-      "transparent": "Транспарент",
-      "singleTile": "Приказ једног окна",
+      "transparent": "Прозирно",
+      "singleTile": "Једноплочни приказ",
       "cached": "Користите кеш меморију",
       "styleCustom": "Користите стил имена \"{value}\"",
       "styleListLoadError": "Дошло је до грешке при учитавању стилова",
@@ -124,7 +124,7 @@
         "both": "Наслов и опис",
         "none": "Нема облачића са информацијама",
         "labelPlacement": "Положај",
-        "right": "Јел тако",
+        "right": "Десно",
         "left": "Налево",
         "bottom": "Дно",
         "top": "Врх"
@@ -193,11 +193,11 @@
     "printbutton": "Штампа",
     "annotationsbutton": "Напомене",
     "noresultfound": "Нема резултата",
-    "save": "Запис",
+    "save": "Сними",
     "saveAs": "Сними као...",
     "opacity": "Транспарентност",
     "elevation": "Надморска висина",
-    "close": "Близу",
+    "close": "Затвори",
     "cancel": "Одустани од тога",
     "no": "Не",
     "yes": "Да",
@@ -212,7 +212,7 @@
     "global": {
       "colors": {
         "red": "{number, plural, =0 {Црвено} =1 {Црвено} other {Црвене}}",
-        "blue": "{number, plural, =0 {Плаво} =1 {Плаво} other {Плаве}",
+        "blue": "{number, plural, =0 {Плаво} =1 {Плаво} other {Плаве}}",
         "green": "{number, plural, =0 {Зелено} =1 {Зелено} other {Зеленe}}",
         "gray": "{number, plural, =0 {Сива} =1 {Сива} other {Сивe}}",
         "jet": "{number, plural, =0 {Tамносива} =1 {Tамносива} other {Tамносивe}}",
@@ -333,7 +333,7 @@
       "deleteConfirmTitle": "да ли сте сигурни",
       "deleteConfirmMessage": "Да ли сте сигурни да желите да избришете ове ресурсе?",
       "deleteConfirmButtonText": "Избриши",
-      "deleteCancelButtonText": "Близу",
+      "deleteCancelButtonText": "Затвори",
       "resource": {
         "deleteResource": "Избриши",
         "editResource": "Уредите својства",
@@ -362,7 +362,7 @@
         "unsavedMapConfirmTitle": "Промене се не бележе",
         "unsavedMapConfirmMessage": "Да ли сте сигурни да желите да оставите несачуване промене?",
         "unsavedMapConfirmButtonText": "Остави",
-        "unsavedMapCancelButtonText": "Близу"
+        "unsavedMapCancelButtonText": "Затвори"
       },
       "geostories": {
         "newGeostory": "Нови StoryMap",
@@ -420,7 +420,7 @@
       },
       "details": {
         "back": "Назад",
-        "save": "Запис",
+        "save": "Сними",
         "show": "Прикажи таблу са детаљима",
         "add": "Додајте нови детаљ",
         "edit": "уреди детаљ",
@@ -473,7 +473,7 @@
       "toolTrashLayersTooltip": "Уклоните изабране слојеве",
       "toolTrashGroupTooltip": "Уклоните изабрану групу",
       "toolFeaturesGridTooltip": "Отворите табелу атрибута",
-      "layerFilterTooltip": "Филтерски слој",
+      "layerFilterTooltip": "Филтрирај слој",
       "toolDownloadTooltip": "Преузмите податке о слојевима",
       "noFilteredResults": "Нема резултата",
       "filterPlaceholder": "Филтер слојева",
@@ -584,10 +584,10 @@
       },
       "compareTool": "Упоредити",
       "configureTool": "Конфигуришите",
-      "spyconfiguration": "Подешавања дурбина",
+      "spyconfiguration": "Подешавања лупе",
       "swipeconfiguration": "Превуците подешавање",
       "swipe": "Превлачење",
-      "spyGlass": "Дурбин",
+      "spyGlass": "Лупа",
       "direction": "Смер превлачења",
       "radius": "Пречник",
       "notVisibleZoomIn": "Слој није видљив јер је ван резолуције. ",
@@ -648,7 +648,7 @@
     "identifyRevGeocodeModalTitle": "Адреса",
     "identifyRevGeocodeSubmitText": "Више информација",
     "identifyStreetView": "Приказ локације у режиму Приказа улице",
-    "identifyRevGeocodeCloseText": "Близу",
+    "identifyRevGeocodeCloseText": "Затвори",
     "identifyRevGeocodeError": "Није могуће геокодирати",
     "identifyEdit": "Уредити",
     "identifyLayerSelectNoResult": "Није пронађен ниједан слој",
@@ -665,7 +665,7 @@
       "title": "Модификација података",
       "fieldMappingInvalidErrMsg": "Мапирање поља није важеће.",
       "fieldMappingInvalidFieldListErrMsg": "Следећа поља обрасца не постоје у бази података:",
-      "saveBtnText": "Запис",
+      "saveBtnText": "Сними",
       "setDefaultBtnText": "Фабрички подешен"
     },
     "getFeatureInfoError": {
@@ -709,7 +709,7 @@
       "newMeasure": "Нова напомена",
       "selectTool": "Изаберите алатку за мерење",
       "exportToGeoJSON": "Извези као ГеоЈСОН",
-      "resetTooltip": "Јасна мерења",
+      "resetTooltip": "Бриши мерења",
       "addAsLayer": "Додај као слој"
     },
     "search": {
@@ -964,7 +964,7 @@
       "query": "Претрага",
       "apply": "Применити",
       "reset": "Ресетовање",
-      "save": "Запис",
+      "save": "Сними",
       "discard": "Поништи",
       "query_request_exception": "Грешка у упиту",
       "config": {
@@ -992,7 +992,7 @@
         "groupField": {
           "any": "било који",
           "all": "свима",
-          "none": "никад"
+          "none": "ниједан"
         },
         "numberfield": {
           "isRequired": "Обавезна вредност поља",
@@ -1064,7 +1064,7 @@
       "errorLoadingSymbols": "Дошло је до проблема при учитавању листе симбола. Молимо контактирајте администратора за проверу конфигурације",
       "edit": "Уредити",
       "remove": "Избриши",
-      "save": "Запис",
+      "save": "Сними",
       "saveGeometry": "Снимите геометрију",
       "cancel": "Одустани од тога",
       "back": "Назад",
@@ -1191,7 +1191,7 @@
       "enabled": "Омогућено",
       "groupTitle": "групе:",
       "roleTitle": "Улога",
-      "saveUser": "Запис",
+      "saveUser": "Сними",
       "savingUser": "Пуцање...",
       "userSaved": "Снимљено!",
       "createUser": "Креирај",
@@ -1219,7 +1219,7 @@
       "noDescriptionAvailable": "(Нема описа)",
       "groupName": "Назив групе",
       "groupDescription": "Опис",
-      "saveGroup": "Запис",
+      "saveGroup": "Сними",
       "createGroup": "Креирај",
       "creatingGroup": "Направљено...",
       "groupMembers": "Чланови:",
@@ -1253,7 +1253,7 @@
     },
     "snapshot": {
       "title": "Видео преглед",
-      "save": "Запис",
+      "save": "Сними",
       "tooltip": "Направите снимак карте.",
       "googleBingError": "Гоогле и Бинг слојеви нису доступни за снимање због ограничења ауторских права.",
       "downloadingSnapshots": "снимање је у току",
@@ -1536,7 +1536,7 @@
       "tools": "Тоолбар",
       "export": "Извоз",
       "selectall": "Изабери све",
-      "deselectall": "Јасно избор",
+      "deselectall": "Обриши избор",
       "backtosearch": "Назад на претрагу",
       "resultInfo": "{total, plural, =0 {Нема резултата} =1 {{total} резултати {total}} остало {{start}-{end} од {total}}}",
       "resultInfoVirtual": "{total, plural, =0 {Нема резултата} =1 {{total} од {total}} осталих {{total} резултата}}",
@@ -2258,7 +2258,7 @@
       "editModal": "Додајте правило",
       "newButton": "Креирај",
       "editButton": "Запис",
-      "close": "Близу",
+      "close": "Затвори",
       "previous": "претходно",
       "next": "следећи",
       "cacheCleaned": "Кеш меморија је успешно очишћена",
@@ -2312,7 +2312,7 @@
         "contentAlign": "Стацк цонтент",
         "leftAlignLabel": "Налево",
         "centerAlignLabel": "Средина",
-        "rightAlignLabel": "Јел тако",
+        "rightAlignLabel": "Десно",
         "contentTheme": "Промени тему",
         "brightThemeLabel": "Светлије",
         "brightTextThemeLabel": "Светлији текст",
@@ -2332,7 +2332,7 @@
         "resetMapConfirm": "Ресетујте конфигурацију карте",
         "resetConfirmContent": "Вратити конфигурацију карте на оригиналну конфигурацију?",
         "saveChanges": "Сачувајте промене",
-        "closeMapEditing": "Близу",
+        "closeMapEditing": "Затвори",
         "confirmCloseMapEditing": "Затворите уређивање карте",
         "pendingChangesDiscardConfirm": "Желите ли да одбаците тренутне промене карте?",
         "editURL": "Измените URL веб локације",
@@ -2371,11 +2371,16 @@
           "backConfirmNo": "Не",
           "backConfirmYes": "да",
           "save": "Сачувај подешавања",
+		  "fontFamily": "Фонт",
+		  "overlay": "Прекривање",
+		  "storyTheme" : "Тема приче",
+		  "storyHeader" : "Наслов приче",
+		  "fontSize": "Величина фонта",
           "headerTitle": "Подешавања приче",
           "title": "Наслов",
           "titlePlaceholder": "Унесите наслов",
           "logo": "Лого",
-          "logoPlaceholder": "Лого не сме бити већи од 48 пк у висину, а препоручује се да буде 96 пк у ширину. ",
+          "logoPlaceholder": "Лого не сме бити већи од 48px у висину, а препоручује се да буде 96px у ширину. ",
           "autoplay": "Аутоматски старт",
           "enableAutoplay": "Омогући аутоматско покретање",
           "autoplayInterval": "Интервал аутоматског покретања (секунде)",
@@ -2410,7 +2415,7 @@
       },
       "webPageCreator": {
         "title": "веб страна",
-        "saveButton": "Запис",
+        "saveButton": "Сними",
         "error": "Наведите важећу адресу веб локације.",
         "url": {
           "label": "URL"
@@ -2433,7 +2438,7 @@
       "namePlaceholder": "Унесите име...",
       "descriptionPlaceholder": "Унесите опис...",
       "confirmCloseText": "Промене су у току, да ли сте сигурни да желите да затворите без снимања?",
-      "close": "Близу",
+      "close": "Затвори",
       "cancel": "Одустани од тога",
       "saveSuccessTitle": "успешно",
       "saveSuccessMessage": "Плоча је успешно снимљен"
@@ -2459,7 +2464,7 @@
         "selectService": "Изаберите услугу",
         "add": "Додати",
         "back": "Назад",
-        "save": "Запис",
+        "save": "Сними",
         "edit": "Уредити",
         "sourcePlaceholder": "Унесите извор",
         "source": "Извор",
@@ -2568,7 +2573,7 @@
       },
       "FilterLayer": {
         "description": "Омогућава додавање филтера слоју",
-        "title": "Филтерски слој"
+        "title": "Филтрирак слој"
       },
       "HelpLink": {
         "description": "Дугме за приступ MapStore документацији",
@@ -2624,7 +2629,7 @@
       },
       "Save": {
         "description": "Омогућава снимање промена фолдера на серверу",
-        "title": "Запис"
+        "title": "Сними"
       },
       "SaveAs": {
         "description": "Омогућава креирање или клонирање фасцикле на сервер",
@@ -2688,7 +2693,7 @@
         "title": "Widget-и"
       },
       "WidgetsTray": {
-        "description": "Трака за сажимање и проширење widget-а на карти. ",
+        "description": "Трака за сажимање и проширење виџета на карти. ",
         "title": "Widgets Tray"
       },
       "ZoomAll": {
@@ -2734,7 +2739,7 @@
         "uploadTooManyBundlesError": "Превише преузетог javascripta-а у zip пакету",
         "uploadWrongFileFormatError": "Погрешан формат датотеке, очекује се zip датотека",
         "confirmRemovePlugin": "Да ли сте сигурни да желите да уклоните овај додатак?",
-        "cancelUpload": "Близу",
+        "cancelUpload": "Затвори",
         "install": "Инсталирај",
         "uploadError": "Грешка током инсталације: ",
         "uploadOk": "Екстензија је успешно инсталирана",
@@ -2858,7 +2863,7 @@
       "title": "Приручник",
       "back": "Назад",
       "next": "Напред",
-      "close": "Близу",
+      "close": "Затвори",
       "skip": "Прескочи",
       "last": "Завршити",
       "start": "Иди",
