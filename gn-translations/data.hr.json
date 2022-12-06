@@ -141,6 +141,7 @@
             "edit": "Izmeniti",
             "export": "Izvesti",
             "editInfo": "Izmeniti informacije",
+			"moreMenuItem": "Karta",
             "editMetadata": "Izmeniti meta-podatke",
             "editStyle": "Izmeniti stil",
 			"editLayerStyle": "Izmeniti stil sloja",

@@ -1324,7 +1324,7 @@
             }
         },
         "mapExport": {
-            "title": "Izvezi kartu",
+            "title": "Izvezi",
             "exportPanel": {
                 "title": "<p><h4>Izaberite željeni format</h4></p>",
                 "exportButtonLabel": "Izvezi"

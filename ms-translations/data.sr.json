@@ -1320,7 +1320,7 @@
       }
     },
     "mapExport": {
-      "title": "Извези карту",
+      "title": "Извези",
       "exportPanel": {
         "title": "<p><h4>Изаберите жељени формат</h4></p>",
         "exportButtonLabel": "Извоз"
